@@ -676,11 +676,11 @@ Nutzungsbezogen: Online-Klassenräume gewähren Schülerinnen und Schülern eine
 
 
 __Auswirkungen auf die Beziehungen__  
-Sowohl die Lehrer*innen, als auch die Schüler*innen müssen mit der Zeit erst Routinen im Online-Klassenraum schaffen. Während dieser Zeit sind gewohnte Vorgänge im Unterricht teilweise ausgesetzt und können zu Irritationen führen. Wie im Beispiel kann der Lehrer eine gehobene Hand übersehen und so spricht die Schülerin ohne Aufforderung ihre Mitschülerin an. Solche Ereignisse können von beiden Seiten missverstanden werden und zu Konflikten führen.  
+Sowohl die Lehrer\*innen, als auch die Schüler\*innen müssen mit der Zeit erst Routinen im Online-Klassenraum schaffen. Während dieser Zeit sind gewohnte Vorgänge im Unterricht teilweise ausgesetzt und können zu Irritationen führen. Wie im Beispiel kann der Lehrer eine gehobene Hand übersehen und so spricht die Schülerin ohne Aufforderung ihre Mitschülerin an. Solche Ereignisse können von beiden Seiten missverstanden werden und zu Konflikten führen.  
   
-Eine Neujustierung des “Who is teaching who?” kann mit negativen Empfindungen der Lehrer*innen einhergehen. Fühlen sich die Lehrer*innen weniger kompetent ( bzw. „entmachtet“), wenn sie technische Probleme nicht lösen können, so kann dies die Beziehung zu ihren Schüler*innen belasten. An dieser Stelle müssen die Rollen der Schüler*innen, sowie der Lehrer*innen neu etabliert und verinnerlicht werden.  
+Eine Neujustierung des “Who is teaching who?” kann mit negativen Empfindungen der Lehrer\*innen einhergehen. Fühlen sich die Lehrer\*innen weniger kompetent ( bzw. „entmachtet“), wenn sie technische Probleme nicht lösen können, so kann dies die Beziehung zu ihren Schüler\*innen belasten. An dieser Stelle müssen die Rollen der Schüler\*innen, sowie der Lehrer\*innen neu etabliert und verinnerlicht werden.  
   
-Die erweiterten Nutzungsmöglichkeiten des Online-Klassenraums ermöglicht den Lehrer*innen ihren Schüler*innen neue Verantwortung und Kontrolle zu übergeben. Dieses Vertrauen stellt ein „Empowerment“ der Schüler*innen dar und kann auf diese Weise die Lehrer-Schülerbeziehung bestärken.
+Die erweiterten Nutzungsmöglichkeiten des Online-Klassenraums ermöglicht den Lehrer\*innen ihren Schüler\*innen neue Verantwortung und Kontrolle zu übergeben. Dieses Vertrauen stellt ein „Empowerment“ der Schüler\*innen dar und kann auf diese Weise die Lehrer-Schülerbeziehung bestärken.
 
 </div>
 
@@ -704,7 +704,7 @@ Im Hinblick auf die Beziehungsgestaltung können folgende Reflexionsfragen zu ei
 *	Welche Routinen sind noch nicht etabliert? Welche Irritationen sind damit einhergegangen und wie kann ich mit ihnen begegnen, um sie aufzulösen?
 *	Welche Möglichkeiten habe ich, um den Schülerinnen und Schülern zusätzliche Kontrolle und gleichzeitig Verantwortung zu geben?
 
-Hier finden Sie weitere Ideen gesammelt von Lehrer*innen, wie Sie Schülerbeziehungen im Online-Klassenzimmer aufrecht erhalten: https://faq-online-lernen.de/knowledge-base/wie-laesst-sich-verbundenheit-im-virtuellen-raum-herstellen/  
+Hier finden Sie weitere Ideen gesammelt von Lehrer\*innen, wie Sie Schülerbeziehungen im Online-Klassenzimmer aufrecht erhalten: https://faq-online-lernen.de/knowledge-base/wie-laesst-sich-verbundenheit-im-virtuellen-raum-herstellen/  
   
 Und hier gibt es weitere Tipps zur praktischen Umsetzung vom Landesmedienzentrum Baden-Württemberg: https://www.lmz-bw.de/statische-newsroom-seiten/schule-machen-in-zeiten-des-coronavirus/online-tools-fuer-den-digitalen-unterricht/
 </div>
