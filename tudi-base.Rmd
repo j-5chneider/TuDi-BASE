@@ -52,17 +52,17 @@ Row
 ### [Gamification](#gamification-1) {.transp .kachel2}
 <div class="kacheltextbox">[Gamification ist die Nutzung von spielerischen Elementen während des Lernens. Gamification führt zu mehr Lernerfolg als ohne spielerische Elemente zu lernen](#gamification-1)</div>
 
-### Text und Bild kombinieren {.transp .kachel5}
-<div class="kacheltextbox">Die Kombination aus Text und Bildinhalten können das Lernen unterstützen. Allerdings müssen sie dazu aufeinander angepasst und klug angeordnet sein.</div>
+### [Lehrer-Schüler-Beziehungen online](#lehrer-schüler-beziehung-im-online-klassenraum) {.transp .kachel3}
+<div class="kacheltextbox">[Der Online-Klassenraum besitzt Merkmale, die sich zu einem herkömmlichen Klassenraum unterscheiden und die Beziehung zwischen Lehrenden und Lernenden prägen.](#lehrer-schüler-beziehung-im-online-klassenraum)</div>
 
-### [Mobile Geräte im Freien](#mobile-geräte-beim-lernen-im-freien) {.transp .kachel3}
+### [Mobile Geräte im Freien](#mobile-geräte-beim-lernen-im-freien) {.transp .kachel4}
 <div class="kacheltextbox">[Mobile Endgeräte, wie Smartphones oder Tablets, werden dazu genutzt Lerngelegenheiten auf außerhalb des Klassenzimmers zu erweitern.](#mobile-geräte-beim-lernen-im-freien)</div>
 
 
 Row
 -----------------------------------------------------------------------
 
-### Medienbildung {.transp .kachel4}
+### Medienbildung {.transp .kachel5}
 <div class="kacheltextbox">Medienbildung beschreibt das Lernen mit aber auch vor allem über Medien, wie deren kritisch-reflexiver Umgang und bspw. Wissen zu datenschutzrechtlichen Fragen.</div>
 
 ### Effekte intensiver Nutzung digitaler Medien {.transp .kachel6}
@@ -259,7 +259,7 @@ __Tools__
 Row
 -----------------------------------------------------------------------
 
-### Anteil der Überlegenheit (Cohen's $U_3$)
+### Anteil der Überlegenheit
 
 ```{r}
 gauge(67, min = 0, max = 100, symbol = '%', gaugeSectors(
@@ -304,6 +304,7 @@ Row {.tabset}
 
 <div class="container">
 <div class="box30_2">
+<p style="margin-top: 100%; font-size: 0.7em; font-style: italic; margin-left:5%"><a href="https://www.flickr.com/photos/47036738@N06/19819155226">"Turning Students Into Players: How Gamification Is Improving Education"</a><span> by <a href="https://www.flickr.com/photos/47036738@N06">Samsung Newsroom</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=2d3573b8-19ec-422e-a8ae-df0f30c8bdc4" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></p>
 </div>
 
 
@@ -327,9 +328,6 @@ Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch rich
 </div>
 </div>
 
-<div class="box30" style="font-size: 0.7em; font-style: italic; margin-left:5%">
-<a href="https://www.flickr.com/photos/47036738@N06/19819155226">"Turning Students Into Players: How Gamification Is Improving Education"</a><span> by <a href="https://www.flickr.com/photos/47036738@N06">Samsung Newsroom</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=2d3573b8-19ec-422e-a8ae-df0f30c8bdc4" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a>
-</div>
 
 ### Das Review {data-width=50}
 
@@ -447,7 +445,7 @@ Mehr Informationen und konkrete digitale Anwendungen:
 Row
 -----------------------------------------------------------------------
 
-### Anteil der Überlegenheit (Cohen's $U_3$)
+### Anteil der Überlegenheit
 
 ```{r}
 gauge(69, min = 0, max = 100, symbol = '%', gaugeSectors(
@@ -592,6 +590,129 @@ __Tools__
 
 
 </div>
+</div>
+
+
+# Lehrer-Schüler-Beziehung im Online-Klassenraum {data-navmenu="Kurzreviews" data-icon="fa-list-alt"}
+
+Row {.tabset}
+-----------------------------------------------------------------------
+
+### Einführung {data-width=50}
+
+<div class="container">
+
+<div class="box60">
+
+__Definition: Was ist die Lehrer-Schüler-Beziehung im Online-Klassenraum?__  
+Im Online-Klassenraum sind die Lehrerin oder der Lehrer, sowie die Schülerinnen und Schüler gleichzeitig in einem virtuellen Raum oder auf einer Plattform anwesend (z.B. Zoom, BigBlueButton). Somit kann synchroner Unterricht stattfinden, ohne dass sich die Klasse zwingend am gleichen Ort befinden muss. Der Online-Klassenraum besitzt diverse Merkmale, die sich zu einem herkömmlichen Klassenraum in der Schule unterscheiden. In ihren Beitrag beschreiben [Kostenius und Alerby (2020)](https://doi.org/10.1080/17482631.2019.1689603), wie diese Merkmale unseren Umgang miteinander und somit auch die Beziehung zwischen Lehrenden und Lernenden prägen.
+
+\
+
+__Warum ist die Lehrer-Schüler-Beziehung im Online-Klassenraum wichtig?__  
+[Kostenius und Alerby (2020)](https://doi.org/10.1080/17482631.2019.1689603) beschreiben folgende Szene, die sich in einem Online-Klassenraum abspielte:  
+  
+<div style="background-color:#eafcf9; padding: 15px; width: 90%; margin-left:2%; margin-bottom:10px;">
+<p style="text-indent: -30px; margin-left: 30px;">
+_Lehrer_: Ich kann Sie nicht sehen.  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Amanda_: Nein, ich weiß, mit meiner Kamera stimmt etwas nicht.  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Lehrer_: Du weißt, dass es eine Voraussetzung für die Teilnahme an der Gruppenpräsentation ist, sowohl mit Mikrofon als auch mit Kamera online zu sein, damit ich Dich sehen und hören kann.  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Amanda_: Ich weiß, aber ich kriege meine Kamera nicht zum Laufen.  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Lehrer_: Nun, dann weiß ich nicht, was ich tun soll.  
+</p>
+<p>
+Monica, eine Schülerin in der Gruppe, drückt den Knopf für "Hand heben", aber der Lehrer bemerkt das nicht. Sie beschließt dann, sich trotzdem am Gespräch zu beteiligen, um dem Lehrer und der Klassenkameradin bei der Lösung des Problems zu helfen. Sie schaltet ihr Mikrofon ein und macht einen Vorschlag: Amanda, kannst du dich vielleicht mit deinem Handy einloggen?  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Amanda_: Okay, ich versuche es und komme dann zurück.  
+</p>
+<p style="text-indent: -30px; margin-left: 30px;">
+_Lehrer_: Vielen Dank, Monica, für den Vorschlag. Mal sehen ob es funktioniert.  
+</p>
+</div>
+  
+Die Szene zeigt, dass die Beteiligten im Online-Klassenraum beispielsweise mit neuen Rollenverständnissen arbeiten müssen. Dies bietet Chancen aber auch Herausforderungen für die Beziehungsgestaltung im Unterricht.
+</div>
+
+<div class="box30_4">
+<p style="margin-top: 100%; font-size: 0.7em; font-style: italic; margin-left:5%">Photo by <a href="https://unsplash.com/@gabrielbenois?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gabriel Benois</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</div>
+
+</div>
+
+
+### Das Review {data-width=50}
+
+<div class="container">
+
+<div class="box60">
+
+
+__Betrachtete die Forschungsfrage__  
+Welche Merkmale unterscheiden Online-Klassenräume von physischen Klassenräumen und welche Auswirkungen hat dies auf die Beziehung zwischen den Lehrerinnen und Lehrern und ihren Schülerinnen und Schülern?
+
+\
+\
+
+__Merkmale der Online-Klassenräume__  
+Online- und herkömmliche Klassenräume werden von Kostenius und Alerby anhand von drei Blickwinkeln gegenübergestellt: Materialistisch, idealistisch und nutzungsbezogen.  
+  
+Materialistisch: Herkömmliche Klassenräume zeichnen sich dadurch aus, dass sie von vier Wänden begrenzt sind und somit den Unterricht für Lehrerinnen und Lehrer als auch für die Schülerinnen und Schüler an diesem Ort festlegen. Online-Klassenräume hingegen werden von den Beteiligten meist von unterschiedlichen Orten besucht (z.B. jeweils zu Hause aus), sie erhöhen also die Zugänglichkeit zum Klassenraum. Andererseits ist es auch einfacher die Grenze des Online-Klassenraums zu verlassen (z.B. indem die Kamera ausgestellt oder die Videokonferenz verlassen wird). Auch Handlungen wie die Hand zu heben für eine Meldung geschehen im Online-Klassenraum weniger physisch präsent.  
+  _
+Idealistisch: Im herkömmlichen Klassenraum besteht eine Hierarchie zwischen Lehrerin bzw. Lehrer und der Klasse: Die Lehrerin bzw. der Lehrer bringt den Schülerinnen und Schülern etwas bei. Der Online-Klassenraum birgt die Möglichkeit, dass sich dieses Verhältnis nun teilweise umkehrt: Die Schülerinnen und Schüler bringen der Lehrerin bzw. dem Lehrer bspw. hinsichtlich der technischen Nutzung etwas bei. Das „Who is teaching who?“ ist hier weniger etabliert.  
+  
+Nutzungsbezogen: Online-Klassenräume gewähren Schülerinnen und Schülern eine neue Freiheit und Kontrolle über ihr Lernen. Möglichkeiten der Beteiligung (z.B. nonverbal durch Applauszeichen, Abstimmungen) oder des Entzugs (z.B. abschalten der Kamera) sind gegenüber herkömmlichen Klassenräumen erweitert.
+
+\
+\
+
+
+__Auswirkungen auf die Beziehungen__  
+Sowohl die Lehrer*innen, als auch die Schüler*innen müssen mit der Zeit erst Routinen im Online-Klassenraum schaffen. Während dieser Zeit sind gewohnte Vorgänge im Unterricht teilweise ausgesetzt und können zu Irritationen führen. Wie im Beispiel kann der Lehrer eine gehobene Hand übersehen und so spricht die Schülerin ohne Aufforderung ihre Mitschülerin an. Solche Ereignisse können von beiden Seiten missverstanden werden und zu Konflikten führen.  
+  
+Eine Neujustierung des “Who is teaching who?” kann mit negativen Empfindungen der Lehrer*innen einhergehen. Fühlen sich die Lehrer*innen weniger kompetent ( bzw. „entmachtet“), wenn sie technische Probleme nicht lösen können, so kann dies die Beziehung zu ihren Schüler*innen belasten. An dieser Stelle müssen die Rollen der Schüler*innen, sowie der Lehrer*innen neu etabliert und verinnerlicht werden.  
+  
+Die erweiterten Nutzungsmöglichkeiten des Online-Klassenraums ermöglicht den Lehrer*innen ihren Schüler*innen neue Verantwortung und Kontrolle zu übergeben. Dieses Vertrauen stellt ein „Empowerment“ der Schüler*innen dar und kann auf diese Weise die Lehrer-Schülerbeziehung bestärken.
+
+</div>
+
+<div class="box30_4">
+<p style="margin-top: 100%; font-size: 0.7em; font-style: italic; margin-left:5%">Photo by <a href="https://unsplash.com/@gabrielbenois?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gabriel Benois</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</div>
+
+</div>
+
+
+
+### Implikationen für die Praxis {data-width=25}
+<div class="container">
+
+<div class="box60">
+
+__Implikationen__  
+Im Hinblick auf die Beziehungsgestaltung können folgende Reflexionsfragen zu einer neuen Sicht auf den (eigenen) Online-Klassenraum führen:
+
+*	Inwiefern verändert sich meine Rolle im Online-Klassenraum, inwiefern die der Schülerinnen und Schüler?
+*	Welche Routinen sind noch nicht etabliert? Welche Irritationen sind damit einhergegangen und wie kann ich mit ihnen begegnen, um sie aufzulösen?
+*	Welche Möglichkeiten habe ich, um den Schülerinnen und Schülern zusätzliche Kontrolle und gleichzeitig Verantwortung zu geben?
+
+Hier finden Sie weitere Ideen gesammelt von Lehrer*innen, wie Sie Schülerbeziehungen im Online-Klassenzimmer aufrecht erhalten: https://faq-online-lernen.de/knowledge-base/wie-laesst-sich-verbundenheit-im-virtuellen-raum-herstellen/  
+  
+Und hier gibt es weitere Tipps zur praktischen Umsetzung vom Landesmedienzentrum Baden-Württemberg: https://www.lmz-bw.de/statische-newsroom-seiten/schule-machen-in-zeiten-des-coronavirus/online-tools-fuer-den-digitalen-unterricht/
+</div>
+
+<div class="box30_4">
+<p style="margin-top: 100%; font-size: 0.7em; font-style: italic; margin-left:5%">Photo by <a href="https://unsplash.com/@gabrielbenois?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gabriel Benois</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+</div>
+
 </div>
 
 
