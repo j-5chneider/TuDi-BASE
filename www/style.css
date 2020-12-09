@@ -84,13 +84,13 @@ change the color and borders of sidebar on each review page.
 }
 
 .kachel3 {
-  background-image: url('mobil-im-freien.jpg');
+  background-image: url('videokonf.jpg');
   background-size: cover;
   background-color: #cccccc;
 }
 
 .kachel4 {
-  background-image: url('lesen.jpg');
+  background-image: url('mobil-im-freien.jpg');
   background-size: cover;
   background-color: #cccccc;
 }
@@ -175,6 +175,15 @@ change the color and borders of sidebar on each review page.
     width: 29%;
     margin-top: 20px;
     background-image: url('mobil-im-freien.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.box30_4 {
+    width: 29%;
+    margin-top: 20px;
+    background-image: url('videokonf.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
