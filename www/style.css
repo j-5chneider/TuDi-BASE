@@ -1,4 +1,3 @@
-/* TRANSLATE REVIEW DOC */
 /* third level header */
 .chart-title {
   background-color: #f6f6f6;
@@ -7,10 +6,7 @@
 }
 
 
-
- /* 
-change the color and borders of sidebar on each review page.
-*/
+ /* change the color and borders of sidebar on each review page. */
  .section.sidebar {
   top: 61px;
   border-bottom: 10px solid #ececec;
@@ -19,18 +15,19 @@ change the color and borders of sidebar on each review page.
 }
 
 
-
+/* NAVBAR -------------------------------------------------------------------*/
 /* change a height of a standard Bootstrap navbar. */
 .navbar {
   min-height: 40px;
 }
 
 /* change the Title Logo & Font */
+/* was #FFC814 */
 .navbar-brand {
   padding: 0 15px;
   height: 40px;
   line-height: 40px;
-  color: #FFC814 !important;
+  color: #ffd859 !important;
   font-weight: bold;
 }
 
@@ -61,7 +58,7 @@ change the color and borders of sidebar on each review page.
 }
 
 
-/*KACHELN*/
+/* KACHELN FRONTPAGE -------------------------------------------------------*/
 
 .transp {
   opacity: 0.5;
@@ -125,7 +122,8 @@ change the color and borders of sidebar on each review page.
 }
 
 
-/* divs for review row design */
+
+/* divs for row design */
 .container {
     justify-content: space-between !important; 
     display: flex;
@@ -134,15 +132,22 @@ change the color and borders of sidebar on each review page.
     width: 100%;
 }
 
+.box26 {
+    width: 26%;
+    margin-top: 20px;
+}
+
 .box30 {
     width: 29%;
     margin-top: 20px;
     margin-right: 20px;
 }
 
-.box60 {
-    width: 59%;
+.box45 {
+    width: 45%;
     margin-top: 20px;
+    line-height: 1.75;
+    text-align: justify;
 }
 
 /* SPEZIFISCHE HINTERGRÜNDE*/
@@ -155,8 +160,8 @@ change the color and borders of sidebar on each review page.
     color: white;
 }
 
-.box30_2 {
-    width: 29%;
+.box26_2 {
+    width: 26%;
     margin-top: 20px;
     background-image: url('https://live.staticflickr.com/343/19819155226_7a99e683d1.jpg');
     background-size: contain;
@@ -186,4 +191,58 @@ change the color and borders of sidebar on each review page.
     background-image: url('videokonf.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+
+/* DROPDOWN INFO BUTTONS  -------------------------------------------------------*/
+.dropbtn {
+  background-color: #FFC814;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdownbox {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+
+.dropdown-content {
+  font-size: .8em;
+  display: none;
+  position: absolute;
+  padding:5px;
+  background-color: #fff4d0;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: justify;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdownbox:hover .dropdown-content {display: block;}
+
+.dropdownbox:hover .dropbtn {background-color: #e5b412;}
+
+
+/* TABS --------------------------------------------------------------------------*/
+/* inactive tab */
+.nav-tabs-custom .nav-tabs > li > a {
+  color: black;
+  background-color: #fff4d0;
+} 
+
+/* active tab */
+.nav-tabs-custom .nav-tabs > li.active > a {
+  color: white;
+  background-color: #e5b412;
+} 
+
+/* tab on hover */
+.nav-tabs-custom .nav-tabs > li.active > a:hover {
+  color: white;
+  background-color: #FFC814;
 }
