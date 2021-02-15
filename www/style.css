@@ -151,6 +151,17 @@
 }
 
 /* SPEZIFISCHE HINTERGRÜNDE*/
+.container-img {         /* Container für Bilder auf der Einführungsseite */
+    width: 26%;
+    margin-top: 20px;
+}
+
+.img-txt {               /* Container für Text unter den Bildern auf der Einführungsseite */
+   font-size: 0.7em; 
+   font-style: italic; 
+   margin-left: 5%;
+}
+
 .box30_1 {
     width: 29%;
     margin-top: 20px;
@@ -161,11 +172,17 @@
 }
 
 .box26_2 {
-    width: 26%;
-    margin-top: 20px;
     background-image: url('https://live.staticflickr.com/343/19819155226_7a99e683d1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 47.6%;
+}
+
+.box26_3 {
+    background-image: url('forsch1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 66.66666666666666666667%;
 }
 
 .box30_2_1{
