@@ -1,0 +1,257 @@
+---
+title: "TüDi-BASE"  
+subtitle: "Bibliothek aufbereiteter Forschungssynthesen des TüDiLB"
+author: 
+  - Jürgen Schneider, Iris Backfisch, Andreas Lachner
+date: "02. März 2020"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+    logo: www/logo.gif
+    css:  www/style.css
+    highlight: pygments
+bibliography: www/references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message=FALSE, 
+                      warning=FALSE)
+# download.file("https://drive.google.com/uc?export=download&id=1wuMqL_Z8T9rxuGvn0VP6siag90kHDm2O",
+#               "dissemination/www/references.bib", overwrite = T)
+library(fontawesome)
+# library(tidyverse)
+# library(kableExtra)
+# library(plotly)
+# library(rmarkdown)
+# library(countdown)
+```
+
+## Vorab
+
+<br /> 
+`r fa(name = "chalkboard-teacher", fill="grey")` Folien herunterladen: [**bit.ly/###**](####)
+
+
+## Digitalisierung im Fokus | Öffentlichkeit & Praxis
+
+<div style="position:absolute; top: 25%; left: 5%; width: 40%; border: 1px solid grey;">![](www/zeitung1.jpg){width=100%}</div>
+<div style="position:absolute; top: 63%; left: 5%; width: 40%; border: 1px solid grey;">![](www/zeitung3.jpg){width=100%}</div>
+<div style="position:absolute; top: 15%; left: 55%; width: 40%; border: 1px solid grey;">![](www/zeitung2.jpg){width=100%}</div>
+
+<div style="position:absolute; top: 92%; left: 58%;">
+<span class="mysource">
+([Seddiqzai, 2020](https://www.zeit.de/gesellschaft/schule/2020-09/digitaler-unterricht-corona-schule-lehrer-ausstattung-tablets-laptops); [Wüllenweber & Kiel, 2021](https://www.stern.de/p/plus/gesellschaft/britta-ernst---die-bildung-hat-einen-grossen-sprung-gemacht--30005704.html); [Haselsteiner, 2020](https://www.sueddeutsche.de/muenchen/wolfratshausen/schule-in-corona-zeiten-lernen-im-virtuellen-klassenzimmer-1.5149552))
+</span>
+</div>
+
+
+
+## Digitalisierung im Fokus | Politik & Lehrpersonenbildung
+
+<br />
+`r fa(name = "book-open", fill="grey")` Strategiepapier "Bildung in der digitalen Welt" der KMK  
+<span class="mysource">[@kmk.2016]</span>
+
+<br />  
+`r fa(name = "university", fill="grey")` QLB Förderschwerpunkt "Digitalisierung in der Lehrerbildung"  
+<span class="mysource">[@bmbf.2018]</span>
+
+<br />  
+`r fa(name = "school", fill="grey")` "DigitalPakt Schule" des BMBF  
+<span class="mysource">[@bmbf.2019]</span>
+
+<br />  
+`r fa(name = "clipboard-list", fill="grey")` Standards für die Lehrerbildung: Bildungswissenschaften<br /><br /><br />
+<span class="mysource">[@kmk.2019]</span>
+
+
+## Digitalisierung im Fokus | Politik & Lehrpersonenbildung
+
+<br />
+`r fa(name = "book-open", fill="grey")` Strategiepapier "Bildung in der digitalen Welt" der KMK  
+<span class="mysource">[@kmk.2016]</span>
+
+<br />  
+`r fa(name = "university", fill="grey")` QLB Förderschwerpunkt "Digitalisierung in der Lehrerbildung"  
+<span class="mysource">[@bmbf.2018]</span>
+
+<br />  
+`r fa(name = "school", fill="grey")` "DigitalPakt Schule" des BMBF  
+<span class="mysource">[@bmbf.2019]</span>
+
+<br />  
+`r fa(name = "clipboard-list", fill="grey")` Standards für die Lehrerbildung: Bildungswissenschaften<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` _digitale Medien didaktisch sinnvoll integrieren_<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` _Medienkompetenz ihrer Schülerinnen und Schüler aufbauen und weiter entwickeln_  
+<span class="mysource">[@kmk.2019]</span>
+
+## Lehrpersonenbildung | kompetenztheoretischer Professionsansatz
+
+* Facetten professioneller Handlungskompetenz<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")`Wissen als Voraussetzung evidenzbasierter Praxis 
+<span class="mysource">[@baumertetal.2006]</span>
+
+
+## Lehrpersonenbildung | kompetenztheoretischer Professionsansatz
+
+* Facetten professioneller Handlungskompetenz<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")`Wissen als Voraussetzung evidenzbasierter Praxis 
+<span class="mysource">[@baumertetal.2006]</span>
+
+![](www/tpack.jpg){width=43%}
+<span class="mysource">[@mishraetal.2006]</span>
+
+
+## Lehrpersonenbildung | Forschungssynthesen als Wissensbasis
+
+* Forschungssynthesen als „gesammeltes Wissen“ bzgl. eines Themas ideal für die Lehrpersonenbildung?
+* Herausforderungen 
+    - „auf dem neuesten Stand“ bleiben nach dem Studium überhaupt leistbar?
+    - Verständnis und Beurteilung von Forschungssynthesen sehr voraussetzungsreich 
+
+
+## Lehrpersonenbildung | Lösungsansatz durch Wissenschaftskommunikation: Clearinghouse
+
+Aufbereitung einzelner Forschungssynthesen für 
+
+* Lehrpersonenbildung (erste, zweite, dritte Phase) 
+* Lehrpersonen (aktiv & in Ausbildung) 
+
+# TüDi-BASE | Clearinghouse für Digitalisierung in der Lehrpersonenbildung
+
+<img src="www/base.jpg" style="position: absolute; top:3%; left:11%; width:30%;" />
+
+## Fragen
+
+<div class="box60l">
+<br /><br />
+
+1. Welche **Themen** sollen aufbereitet werden?<br /><br /><br />
+2. Wie werden Forschungssynthesen <br />innerhalb dieser Themen **selektiert**?<br /><br /><br />
+3. Wie wird wissenschaftliches Wissen <br />**aufbereitet und dargestellt**?  
+
+</div>
+
+<div class="box-bg-r">`r fa(name = "question", fill="white", height = "50%")`</div>
+
+
+## {-}
+
+<div class="box-bg-l">Themen</div>
+
+<div class="box60r">
+
+<br /><br />
+
+__Top-down Strategie__  
+  
+Themen des Moduls  
+_„Lehren und Lernen mit digitalen Medien“_  
+(M.Ed. Bildungswissenschaftliches Studium)  
+<br /><br />
+`r fa(name = "long-arrow-alt-right", fill="grey")` quantitative & qualitative Forschungssynthesen  
+
+[Liste füge ich noch hier ein]
+
+</div>
+
+
+
+## {-}
+
+<div class="box-bg-l">Selektion</div>
+
+<div class="box60r">
+<br /><br />
+
+1. Relevanzdimensionen 
+    * Aktueller Diskurs in Öffentlichkeit (und Forschung) 
+    * Umsetzbarkeit im Unterricht 
+    * Innovationspotential<br /> <br /><br />
+2. Qualität der Forschungssynthese (MAGIC) 
+    * Peer Review Journals 
+    * Generalisierbarkeit der Ergebnisse 
+    * Strenge der Inklusions- & Exklusionskriterien 
+
+<span class="mysource">[@abelson.1995]</span>
+</div>
+
+
+## {-}
+
+<div class="box-bg-l">Design</div>
+
+<div class="box60r">
+<br />
+
+**Inhaltliche Struktur** 
+
+1. Einführung, Definition, Relevanzinduktion <span class="mysource">[@mccruddenetal.2011]</span>
+2. Erkenntnisse der Forschungsynthese 
+3. Für die Praxis (Implikationen, Einordnung, Tools) 
+
+<br /><br />
+**Gestaltungsprinzipien**
+
+* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021]</span>
+* Verwendung von "Hedges" [Zitation?] <span class="mysource">[@hendriksetal.2020]</span>
+
+<br /><br />
+**Effektstärken**
+
+* alternative Effektstärkemaße <span class="mysource">[@haneletal.2019; @haneletal.2019a]</span>
+* grafische Darbietung 
+
+</div>
+
+## Generierungprozess | Prototyping
+
+**Feedback-Loops**
+
+1. Prototyp
+    - Feedback durch: Wissenschaftler\*innen
+    - Fokus: wissenschaftliche Qualität <br /><br />
+2. Prototyp:
+    - Feedback durch: Lehrerbildner\*innen
+    - Fokus: Passung zu Bedarf der Nutzergruppe <br /><br />
+3. Prototyp: 
+    - Feedback durch: Lehrpersonen
+    - Fokus: Passung zu Bedarf der Nutzergruppe
+
+<span class="mysource">[@seideletal.2017]</span>
+
+
+## Begleitforschung
+
+1. Laut-Denken-Studie
+    - Fokus / Schwerpunkte bei der Exploration der Inhalte
+    - Irritationen / Missverständnisse bei den Inhalten
+    - Usability <br /><br />
+2. Experimentelle Studien 
+    - Darstellungen von Effektstärken
+    - Verständnis & Einordnung der Effekstärkemaße 
+
+
+# {-}
+
+
+<div id="refs"></div>
+
+
+
+# &nbsp;
+__Images:__  
+(in order of appearance)  
+  
+<span style="font-size:.7em;">
+<a href="https://unsplash.com/@matt__feeney?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">matthew Feeney</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>  
+Reproduced by permission of the publisher, © 2012 by tpack.org
+</span>
