@@ -99,10 +99,10 @@ library(fontawesome)
 
 ## Lehrpersonenbildung | kompetenztheoretischer Professionsansatz
 
-* Facetten professioneller Handlungskompetenz<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")`Wissen als Voraussetzung evidenzbasierter Praxis 
+* Facetten professioneller Handlungskompetenz
 <span class="mysource">[@baumertetal.2006]</span>
 
-![](www/komp.jpg){width=65%}
+![](www/komp.jpg){width=68%}
 
 
 
@@ -117,10 +117,10 @@ V.a. die Valenz erhöhen wir ja (hoffentlich) mit TüDiBASE und die Selbstwirksa
 
 ## Lehrpersonenbildung | kompetenztheoretischer Professionsansatz
 
-* Facetten professioneller Handlungskompetenz<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")`Wissen als Voraussetzung evidenzbasierter Praxis 
+* Facetten professioneller Handlungskompetenz
 <span class="mysource">[@baumertetal.2006]</span>
 
-![](www/tpack.jpg){width=43%}
+![](www/tpack.png){width=78%}
 <span class="mysource">[@mishraetal.2006]</span>
 
 <div class="notes">
@@ -138,10 +138,17 @@ V.a. die Valenz erhöhen wir ja (hoffentlich) mit TüDiBASE und die Selbstwirksa
 
 ## Lehrpersonenbildung | Forschungssynthesen als Wissensbasis
 
-* Forschungssynthesen als „gesammeltes Wissen“ bzgl. eines Themas ideal für die Lehrpersonenbildung?
-* Herausforderungen 
-    - „auf dem neuesten Stand“ bleiben nach dem Studium überhaupt leistbar?
-    - Verständnis und Beurteilung von Forschungssynthesen sehr voraussetzungsreich 
+* Forschungssynthesen als „gesammeltes Wissen“ bzgl. eines Themas
+* höchstes Level an Evidenz empirischer Forschung <span class="mysource">[@burnsetal.2011]</span>
+
+<br />
+`r fa(name = "long-arrow-alt-right", fill="grey")` ideal für die Lehrpersonenbildung?
+<br /><br /><br />
+
+__Herausforderungen__ 
+
+* „auf dem neuesten Stand“ bleiben nach dem Studium überhaupt leistbar?
+* Verständnis und Beurteilung von Forschungssynthesen sehr voraussetzungsreich 
 
 
 ## Lehrpersonenbildung | Lösungsansatz durch Wissenschaftskommunikation
@@ -217,14 +224,16 @@ _„Lehren und Lernen mit digitalen Medien“_
 
 <div class="box-bg-l">Design</div>
 
+<div style="position:absolute; bottom:0%; right:0%; width: 17%; height:5%; background-color: #bad1d5; font-size: .8em; padding:25px 5px 5px 5px;">erster Entwurf [hier](https://raw.githack.com/j-5chneider/TuDi-BASE/main/tudi-base.html#gamification-1)</div>
+
 <div class="box60r">
 <br />
 
 **Inhaltliche Struktur** 
 
 1. Einführung, Definition, Relevanzinduktion <span class="mysource">[@mccruddenetal.2011]</span>
-2. Erkenntnisse der Forschungsynthese 
-3. Für die Praxis (Implikationen, Einordnung, Tools) <span class="mysource">[@hendriksetal.2020]</span>
+2. Erkenntnisse der Forschungsynthese & Einordnung <span class="mysource">[@hendriksetal.2020]</span>
+3. Für die Praxis (Implikationen, Tools)
 
 <br /><br />
 **Gestaltungsprinzipien**
