@@ -82,8 +82,8 @@ library(fontawesome)
 ## Digitalisierung im Fokus | Politik & Lehrpersonenbildung
 
 <br />
-`r fa(name = "book-open", fill="grey")` Strategiepapier "Bildung in der digitalen Welt" der KMK  
-<span class="mysource">[@kmk.2016]</span>
+`r fa(name = "book-open", fill="grey")` Strategiepapiere "Medienbildung in der Schule" & "Bildung in der digitalen Welt" der KMK  
+<span class="mysource">[@kmk.2012; @kmk.2016]</span>
 
 <br />  
 `r fa(name = "university", fill="grey")` QLB Förderschwerpunkt "Digitalisierung in der Lehrerbildung"  
