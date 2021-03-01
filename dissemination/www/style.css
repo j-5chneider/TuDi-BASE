@@ -198,12 +198,19 @@ slides > slide.backdrop {
 */
 
 
-.blueborder {
-   background-color: #82b9a0;
-   padding:4px;
-   display: inline-block;
-}
+/* single slides */
 
+.struktur {
+  background-image: url('struktur.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:2%;
+  left:4%;
+  height:96%;
+  width:96%;
+  z-index: 99;
+}
 
 
 /* CODE HIGHLIGHT */
@@ -233,6 +240,8 @@ slides > slide.backdrop {
 .prettyprint .pln {
   color: #293133;
 }
+
+
 
 
 /* REFERENCES */

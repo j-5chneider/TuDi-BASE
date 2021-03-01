@@ -31,11 +31,7 @@ knitr::opts_chunk$set(echo = FALSE,
 # download.file("https://drive.google.com/uc?export=download&id=1wuMqL_Z8T9rxuGvn0VP6siag90kHDm2O",
 #               "dissemination/www/references.bib", overwrite = T)
 library(fontawesome)
-# library(tidyverse)
-# library(kableExtra)
-# library(plotly)
 # library(rmarkdown)
-# library(countdown)
 ```
 
 ## Vorab
@@ -100,6 +96,18 @@ library(fontawesome)
 * Facetten professioneller Handlungskompetenz<br />&nbsp;&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")`Wissen als Voraussetzung evidenzbasierter Praxis 
 <span class="mysource">[@baumertetal.2006]</span>
 
+![](www/komp.jpg){width=65%}
+
+
+
+<div class="notes">
+
+* Valenz digitaler Medien
+* Selbstwirksamkeit
+
+V.a. die Valenz erhöhen wir ja (hoffentlich) mit TüDiBASE und die Selbstwirksamkeit vllt auch indirekt in dem wir konkrete Umsetzungsvorschläge bieten und eben das Wissen erhöhen?
+</div>
+
 
 ## Lehrpersonenbildung | kompetenztheoretischer Professionsansatz
 
@@ -108,6 +116,18 @@ library(fontawesome)
 
 ![](www/tpack.jpg){width=43%}
 <span class="mysource">[@mishraetal.2006]</span>
+
+<div class="notes">
+
+* Mediendidaktik
+    * Informationsverarbeitung mit digitalen Medien
+    * Formate multimedialen Lernens
+* Medienpädagogik
+    * Mediensozialisation 
+* Fachdidaktik
+    * fachspezifische Einsatzszenarien digitaler Medien
+
+</div>
 
 
 ## Lehrpersonenbildung | Forschungssynthesen als Wissensbasis
@@ -118,14 +138,14 @@ library(fontawesome)
     - Verständnis und Beurteilung von Forschungssynthesen sehr voraussetzungsreich 
 
 
-## Lehrpersonenbildung | Lösungsansatz durch Wissenschaftskommunikation: Clearinghouse
+## Lehrpersonenbildung | Lösungsansatz durch Wissenschaftskommunikation
 
 Aufbereitung einzelner Forschungssynthesen für 
 
 * Lehrpersonenbildung (erste, zweite, dritte Phase) 
 * Lehrpersonen (aktiv & in Ausbildung) 
 
-# TüDi-BASE | Clearinghouse für Digitalisierung in der Lehrpersonenbildung
+# TüDi-BASE | Aufbereitete Forschungssynthesen zum Thema Digitalisierung
 
 <img src="www/base.jpg" style="position: absolute; top:3%; left:11%; width:30%;" />
 
@@ -154,16 +174,18 @@ Aufbereitung einzelner Forschungssynthesen für
 __Top-down Strategie__  
   
 Themen des Moduls  
+  
 _„Lehren und Lernen mit digitalen Medien“_  
 (M.Ed. Bildungswissenschaftliches Studium)  
 <br /><br />
 `r fa(name = "long-arrow-alt-right", fill="grey")` quantitative & qualitative Forschungssynthesen  
 
-[Liste füge ich noch hier ein]
-
 </div>
 
 
+## {-}
+
+<div class="struktur"></div>
 
 ## {-}
 
@@ -174,14 +196,14 @@ _„Lehren und Lernen mit digitalen Medien“_
 
 1. Relevanzdimensionen 
     * Aktueller Diskurs in Öffentlichkeit (und Forschung) 
-    * Umsetzbarkeit im Unterricht 
+    * Umsetzbarkeit in Schule/Unterricht 
     * Innovationspotential<br /> <br /><br />
-2. Qualität der Forschungssynthese (MAGIC) 
+2. Qualität der Forschungssynthese (Study DIAD) 
     * Peer Review Journals 
     * Generalisierbarkeit der Ergebnisse 
     * Strenge der Inklusions- & Exklusionskriterien 
 
-<span class="mysource">[@abelson.1995]</span>
+<span class="mysource">[@valentineetal.2008]</span>
 </div>
 
 
@@ -196,13 +218,13 @@ _„Lehren und Lernen mit digitalen Medien“_
 
 1. Einführung, Definition, Relevanzinduktion <span class="mysource">[@mccruddenetal.2011]</span>
 2. Erkenntnisse der Forschungsynthese 
-3. Für die Praxis (Implikationen, Einordnung, Tools) 
+3. Für die Praxis (Implikationen, Einordnung, Tools) <span class="mysource">[@hendriksetal.2020]</span>
 
 <br /><br />
 **Gestaltungsprinzipien**
 
 * Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021]</span>
-* Verwendung von "Hedges" [Zitation?] <span class="mysource">[@hendriksetal.2020]</span>
+* Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
 
 <br /><br />
 **Effektstärken**
@@ -236,8 +258,8 @@ _„Lehren und Lernen mit digitalen Medien“_
     - Irritationen / Missverständnisse bei den Inhalten
     - Usability <br /><br />
 2. Experimentelle Studien 
-    - Darstellungen von Effektstärken
-    - Verständnis & Einordnung der Effekstärkemaße 
+    - Darstellungen von Effektstärken<br />`r fa(name = "long-arrow-alt-right", fill="grey")` Verständnis & Einordnung der Effekstärkemaße 
+    - Effekte auf Valenz
 
 
 # {-}
