@@ -37,7 +37,13 @@ library(fontawesome)
 ## Vorab
 
 <br /> 
-`r fa(name = "chalkboard-teacher", fill="grey")` Folien herunterladen: [**bit.ly/###**](####)
+`r fa(name = "eye", fill="grey")` Folien anschauen: [**bit.ly/BASE-KA**](http://bit.ly/BASE-KA)<br />
+&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Pfeiltasten zum Blättern
+
+
+<br /><br /><br /> 
+`r fa(name = "download", fill="grey")` Folien downloaden: [**bit.ly/BASE-KA-save**](http://bit.ly/BASE-KA-save)<br />
+&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Rechtsklick auf Download > "Ziel/Link speichern unter"
 
 
 ## Digitalisierung im Fokus | Öffentlichkeit & Praxis
