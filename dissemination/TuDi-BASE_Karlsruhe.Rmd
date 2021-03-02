@@ -212,9 +212,11 @@ _„Lehren und Lernen mit digitalen Medien“_
     * Umsetzbarkeit in Schule/Unterricht 
     * Innovationspotential<br /> <br /><br />
 2. Qualität der Forschungssynthese (Study DIAD) 
-    * Peer Review Journals 
-    * Generalisierbarkeit der Ergebnisse 
-    * Strenge der Inklusions- & Exklusionskriterien 
+    * Präzision in Interventionen und Operationalisierung
+    * Klarheit in der Schlussfolgerung
+    * Generalisierbarkeit der Ergebnisse
+    * Präzision der Schlussfolgerung
+
 
 <span class="mysource">[@valentineetal.2008]</span>
 </div>

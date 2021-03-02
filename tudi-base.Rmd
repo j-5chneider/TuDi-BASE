@@ -353,7 +353,7 @@ Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch rich
 <div class="content-box">
 \
 
-__Das Review: "Ist Gamification Blödsinn? Evidenz aus einer Metaanalyse und Synthese von qualitativen Daten im Bildungskontext"__  
+__Das Review: "Erhöht Gamification das Lernen der Schülerinnen und Schüler? Evidenz aus einer Metaanalyse und Synthese von qualitativen Daten im Bildungskontext"__  
 ([von Bai, Hew, und Huang, 2020](https://doi.org/10.1016/j.edurev.2020.100322))
 
 In der Metaanalyse von Shurui Bai, Khe Foon Hew, und Biyun Huang (2020) wurden zunächst 24 Studien mit insgesamt 3202 Lernenden untersucht. In diesen Studien wurden Lernende, die mit spielerischen Elementen i.S.v. Gamification lernten, hinsichtlich ihres Lernerfolgs mit solchen verglichen, die ohne Gamification lernten.  
@@ -432,7 +432,7 @@ _Gamification & Lernverhalten_
 
 \
 Quelle:
-Bai, S., Hew, K. F., & Huang, B. (2020). Is gamification “bullshit”? Evidence from a meta-analysis and synthesis of qualitative data in educational contexts. Educational Research Review, 100322.  [https://doi.org/10.1016/j.edurev.2020.100322](https://doi.org/10.1016/j.edurev.2020.100322)
+Bai, S., Hew, K. F., & Huang, B. (2020). Does gamification improve student learning outcome? Evidence from a meta-analysis and synthesis of qualitative data in educational contexts. Educational Research Review, 100322.  [https://doi.org/10.1016/j.edurev.2020.100322](https://doi.org/10.1016/j.edurev.2020.100322)
 
 </div>
 </div>
