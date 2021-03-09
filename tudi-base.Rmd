@@ -354,7 +354,7 @@ Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch rich
 \
 
 __Das Review: "Erhöht Gamification das Lernen der Schülerinnen und Schüler? Evidenz aus einer Metaanalyse und Synthese von qualitativen Daten im Bildungskontext"__  
-([von Bai, Hew, und Huang, 2020](https://doi.org/10.1016/j.edurev.2020.100322))
+(von [Bai, Hew, und Huang, 2020](https://doi.org/10.1016/j.edurev.2020.100322))
 
 In der Metaanalyse von Shurui Bai, Khe Foon Hew, und Biyun Huang (2020) wurden zunächst 24 Studien mit insgesamt 3202 Lernenden untersucht. In diesen Studien wurden Lernende, die mit spielerischen Elementen i.S.v. Gamification lernten, hinsichtlich ihres Lernerfolgs mit solchen verglichen, die ohne Gamification lernten.  
   
@@ -483,27 +483,42 @@ Row {.tabset}
 -----------------------------------------------------------------------
 ### Einführung {data-width=50}
 
+
 <div class="container">
-<div class="container-img">
-<div class="box26_3">
-</div>
-<div class="img-txt">Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
-</div>
-</div>
+<div class="content-box">
+<p class="header-review">Forschendes Lernen mit mobilen Geräten</p>
+<img src="www/forsch2.jpg" style="width:100%" />
+<span class="img-txt">
+Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+</span>
+
+\
+\
 
 
-
-
-<div class="content-box" style="margin-left: 10px; margin-right:10px;">
-__Auf Entdeckungsreise zum Lernerfolg – mit digitaler Unterstützung__  
+__Auf Entdeckungsreise zum Lernerfolg – mit digitaler Unterstützung?__  
 
 Von der Schnitzeljagd beim Kindergeburtstag bis zu Quests im Online-Game - Kinder und Jugendliche legen eine große Neugierde an den Tag, wenn es darum geht, auf Entdeckungsreise zu gehen und eigene Fragen selbstständig zu beantworten. Beim forschenden Lernen wird genau diese Motivation genutzt und der Lernprozess gezielt unterstützt, sodass sich die Lernenden während des Forschens ihr Wissen selbst erarbeiten können.
 Mobile Geräte wie Smartphones oder Tablets können dazu eingesetzt werden, den Ablauf des forschenden Lernprozesses zu unterstützen. Aber wann lohnt es sich besonders mobile Geräte einzusetzen? Bei einem stark vorstrukturierten oder freien Forschungsprozess? Im Klassenzimmer oder bei informellem Lernen, wie in Museen oder im Freien? Diese und weitere Fragen zu den Gelingensbedingungen forschenden Lernens beantworten Yang, Sung und Chang (2020, [Quelle](https://doi.org/10.1177/0735633119879366)).
-  
+\
+\
+
+
+<details>
+  <summary>
+  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Was ist forschendes Lernen?__</div>
+  </summary>
+  <div class="dropdown-content">
+  Beim forschenden Lernen nehmen die Schülerinnen und Schüler ihren Lernprozess selbst in die Hand. Sie entwickeln Fragen, sammeln Informationen, bereiten diese auf und präsentieren ihr Ergebnis, das anschließend in der Klasse diskutiert und reflektiert werden kann. Die Lehrkraft kann diese forschenden Lernschritte stark vorstrukturieren (z.B. indem sie den Versuchsaufbau und -ablauf im Chemieunterricht vorgibt) oder bewusst offen lassen (z.B. durch eigene Generierung von Fragen und Vorgehensweisen zum Thema Chatsprache im Deutschunterricht).
+
+<iframe src="https://www.youtube-nocookie.com/embed/csev6wEVLFs?start=34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  </div>
+</details>
+
 
 \
 
-__Eine Beispiel aus der Schulpraxis__  
+__Was sagt die Praxis?__  
   
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/niEVZzASBZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -512,19 +527,6 @@ __Eine Beispiel aus der Schulpraxis__
 __Wozu mobile Geräte einsetzen?__  
 
 Smartphones oder Tablets können den Forschungsprozess auf vielfältige Weise unterstützen. Es können Daten im Freien (beispielsweise durch die Kamerafunktion) aufgezeichnet werden, Messwerte eines Versuchs können eingegeben und via Software ausgewertet werden und schließlich können auch die Ergebnisse digital mit den Mitschülerinnen und –schülern geteilt werden, indem sie beispielsweise in auf einer Präsentationsfolie festgehalten werden. Auch solche Forschungsprojekte, die sonst zu lange dauern würden (z.B. Auswirkungen globaler Erwärmung) oder die als Experiment nicht umsetzbar sind (z.B. Radioaktivität), können mit Hilfe mobiler Geräte in veränderter Form durchgeführt werden. Hier können Programme auf Smartphones oder Tablets eigene Beobachtungen mit Computersimulationen ermöglichen. 
-</div>
-
-
-<div class="box26">
-
-<div class="dropdownbox">
-  <button class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Was ist forschendes Lernen?__</button>
-  <div class="dropdown-content">
-Beim forschenden Lernen nehmen die Schülerinnen und Schüler ihren Lernprozess selbst in die Hand. Sie entwickeln Fragen, sammeln Informationen, bereiten diese auf und präsentieren ihr Ergebnis, das anschließend in der Klasse diskutiert und reflektiert werden kann. Die Lehrkraft kann diese forschenden Lernschritte stark vorstrukturieren (z.B. indem sie den Versuchsaufbau und -ablauf im Chemieunterricht vorgibt) oder bewusst offen lassen (z.B. durch eigene Generierung von Fragen und Vorgehensweisen zum Thema Chatsprache im Deutschunterricht).
-
-<iframe src="https://www.youtube-nocookie.com/embed/csev6wEVLFs?start=34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-  </div>
-</div>
 
 </div>
 </div>
@@ -533,32 +535,22 @@ Beim forschenden Lernen nehmen die Schülerinnen und Schüler ihren Lernprozess 
 ### Das Review {data-width=50}
 
 <div class="container">
-
-<div class="box26" style="padding: 15px;">
-\
-\
-
-_„Sind mobile Geräte dazu geeignet forschendes Lernen zu unterstützen?“_
-</div>
-
 <div class="content-box">
-__Forschungsfragen und Ergebnisse__   
-(von Yang, Sung und Chang, 2020)
+\
 
-Wird forschendes Lernen durch mobile Geräte unterstützt, kann der Lernerfolg (z.B. bezüglich des Fachwissens, Verstehens, Bewertens) der Schülerinnen und Schüler <u>stark verbessert</u> werden. Schätzt man die zusammengefassten Studien allerdings etwas vorsichtiger ein, was einige Eckdaten zu den Studien nahelegen (s. Details zur Studie), würde man zu dem Schluss kommen, dass der Lernerfolg <u>mittelstark</u> verbessert werden kann. In beiden Fällen ist jedoch festzuhalten, dass ein positiver Einfluss mobiler Geräte auf das forschende Lernen vorliegt.
-</div>
+__Das Review “Einsatz einer Metaanalyse zur Aufdeckung der kritischen Aspekte des mobilen forschungsbasierten Lernens.”__   
+(von [Yang, Sung und Chang, 2020](https://doi.org/10.1177/0735633119879366))  
+  
+In der Metaanalyse von Yang, Sung und Chang (2020) wurden zunächst 41 Studien mit insgesamt 3.566 Lernenden untersucht. Im Mittelpunkt der Studien stand die Frage, wie sich forschendes Lernen mit mobilen Geräten auf den Lernerfolg oder affektive Einstellungen (z. B. Motivation) der Lernenden auswirkt. Dabei wurden Lernende, bei denen forschendes Lernen mit mobilen Geräten zum Einsatz kam, jeweils mit einer Kontrollgruppe verglichen. In diesen Kontrollgruppen kam entweder computerbasiertes forschendes Lernen (ohne mobile Geräte), forschendes Lernen ganz ohne Computer oder kein forschendes Lernen zum Einsatz.  
+  
+Über das Alter der Teilnehmenden an den Studien oder die Länder in denen die Studien durchgeführt werden gibt das Review keine Informationen.   
+\
 
-<div class="box26">
-
-<div class="dropdownbox">
-  <button class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Details zur Studie__</button>
+<details>
+  <summary>
+  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Qualität des Reviews__</div>
+  </summary>
   <div class="dropdown-content">
-_Aufbau_  
-
-In der Metaanalyse von Yang, Sung und Chang (2020) wurden zunächst 41 Studien mit insgesamt 3.566 Lernenden untersucht. Im Mittelpunkt der Studien stand die Frage, wie sich forschendes Lernen mit mobilen Geräten auf den Lernerfolg oder affektive Einstellungen (z. B. Motivation) der Lernenden auswirkt. Dabei wurden Lernende, bei denen forschendes Lernen mit mobilen Geräten zum Einsatz kam, jeweils mit einer Kontrollgruppe verglichen. In diesen Kontrollgruppen kam entweder computerbasiertes forschendes Lernen (ohne mobile Geräte), forschendes Lernen ganz ohne Computer oder kein forschendes Lernen zum Einsatz.
-
- \
-
 _Was überzeugt?_  
 
 * Die Autor*innen haben sehr strenge Qualitätskriterien für die einzelnen Studien angewendet. Die aufgenommenen Studien haben demnach eine hohe Qualität.
@@ -571,32 +563,29 @@ _Was muss bedacht werden?_
 * In der Suche nach relevanten Studien wurde lediglich auf publizierte Studien zurückgegriffen und nicht zusätzlich nach unveröffentlichten Arbeiten gesucht. Dies kann dazu führen, dass die Stärke des Effekts überschätzt wird. Hier haben die Autor*innen allerdings nachträglich die Effektstärke nach unten korrigiert (siehe „Forschungsfragen und Ergebnisse“).
 * Leider wissen wir kaum etwas über die Teilnehmenden der Studien: Wurden die Studien mit Schülerinnen und Schülern (welcher Klassenstufe) oder mit Studierenden durchgeführt? In welchem Land wurden die Studien durchgeführt? Es lässt sich somit leider nur wenig bezüglich der Übertragbarkeit der Ergebnisse auf den Unterricht hier vor Ort sagen.
 
+   </div>
+</details>
 
-</div>
-</div>
+\
 
-</div>
+__Forschungsfragen und Ergebnisse__   
+  
+_„Sind mobile Geräte dazu geeignet forschendes Lernen zu unterstützen?“_  
+  
+Wird forschendes Lernen durch mobile Geräte unterstützt, kann der Lernerfolg (z.B. bezüglich des Fachwissens, Verstehens, Bewertens) der Schülerinnen und Schüler <u>stark verbessert</u> werden. Schätzt man die zusammengefassten Studien allerdings etwas vorsichtiger ein, was einige Eckdaten zu den Studien nahelegen (s. Details zur Studie), würde man zu dem Schluss kommen, dass der Lernerfolg <u>mittelstark</u> verbessert werden kann. In beiden Fällen ist jedoch festzuhalten, dass ein positiver Einfluss mobiler Geräte auf das forschende Lernen vorliegt.  
+\
 
-</div>
+ _„Wann ist die Unterstützung mit mobilen Geräten besonders effektiv?“_ 
 
-
-
-<div class="container">
-
-<div class="box26" style="padding-left: 15px; padding-right: 15px;"> _„Wann ist die Unterstützung mit mobilen Geräten besonders effektiv?“_ 
-</div>
-
-<div class="content-box">
 
 * _Strukturierung_: <br />Forschendes Lernen kann in unterschiedlichem Ausmaß vorstrukturiert sein. Ein starker Strukturierungsgrad liegt vor, wenn Schülerinnen und Schüler eine durch die Lehrkraft gestellte Frage durch einen vorgegebenen Versuchsplan ergründen. Wenn Schülerinnen und Schüler andererseits eigene Fragen durch eine selbst gewählte Methode bearbeiten und die Ergebnisse selbstständig aufbereiten, spricht man von einem offenen Forschungsprozess mit geringer Strukturierung. Es zeigt sich, dass der Einsatz von mobilen Geräten bei einem offenen Forschungsprozess zu den besten Lernergebnissen führt.
 * _Steuerung_: <br />Ähnlich verhält es sich bei der Frage, wer den Forschungsprozess steuert: Lehrende, Lernende oder beide gemeinsam? Steuern die Schülerinnen und Schüler den Forschungsprozess mit den mobilen Geräten selbst, dann lernen sie am meisten.
 * _Umgebung & Fächer_: <br />Mobile Geräte entfalten besonders dann ihren Mehrwert, wenn sie außerhalb des üblichen Rahmens im Klassenzimmer eingesetzt werden. Also bei der Erforschung der Natur im Freien oder bei einer Exkursion im Museum. Entsprechend wurde bisher besonders die Wirksamkeit mobiler Geräte in den MINT-Fächern festgestellt.
 
-</div>
+\
 
-<div class="box26">
+Quelle: Yang, J.-M., Sung, Y.-T., & Chang, K.-E. (2020). Use of Meta-Analysis to Uncover the Critical Issues of Mobile Inquiry-Based Learning. Journal of Educational Computing Research, 58(4), 715–746. https://doi.org/10.1177/0735633119879366 
 </div>
-
 </div>
 
 
@@ -605,11 +594,8 @@ _Was muss bedacht werden?_
 
 ### Implikationen für die Praxis {data-width=50}
 <div class="container">
-
-<div class="box26" style="padding-left: 15px; padding-right: 15px;">
-</div>
-
 <div class="content-box">
+\
 
 __Wie setze ich mobile Geräte für das forschende Lernen sinnvoll ein?__  
 
@@ -618,11 +604,15 @@ Damit der Einsatz mobiler Geräte beim forschenden Lernen den Lernerfolg (z.B. b
 1. Mobile Geräte sind dann besonders effektiv, wenn der Lernprozess des forschenden Lernens möglichst offen ist und durch die Schülerinnen und Schüler gesteuert wird.
 2. Gerade an Lernorten außerhalb des Klassenzimmers (im Freien oder bei Exkursionen) können mobile Geräte ihr Potential entfalten. Entsprechend eignen sich besonders MINT-Fächer für eine Umsetzung mobilen Lernens.
 
+\
+\
+
+Laut den Ergebnissen der Studie lernen Schülerinnen und Schüler also am besten, wenn sie den Lerngegenstand frei explorieren und selbst steuern können. Aus einer lehr- / lernpsychologischen Perspektive, welche die kognitiven Belastungen beim Lernen betrachtet, ist dieses Ergebnis auf den ersten Blick wenig intuitiv (siehe z.B. [Kirschner, 2006](https://doi.org/10.1207/s15326985ep4102_1)). Denn müssen Lernende beispielsweise Experimente selbst planen, durchführen und überprüfen, stellt sie dies vor hohe Anforderungen. Diese können sie nur bewältigen, wenn sie entweder selbst genug Vorwissen und methodische Kenntnisse (z.B. zum Durchführen von Experimenten) mitbringen. Die Autoren des Reviews sind allerdings der Meinung, dass freie Exploration und Selbststeuerung auch ohne diese Voraussetzungen möglich ist, weil mobile Geräte es erlauben automatisiertes Feedback zu jedem kleinen Schritt im Prozess des forschenden Lernens zu geben. 
 
 \
 \
 
-__Beispiele__  
+__Tools/Beispiele__  
 
 Mehr Informationen und Beispiele von konkreten digitalen Anwendungen:
 
@@ -630,12 +620,7 @@ Mehr Informationen und Beispiele von konkreten digitalen Anwendungen:
 *	Beispiel für eine App zur mobilen Pflanzenbestimmung im Biologieunterricht:<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/niEVZzASBZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 *	Beispiel für den Einsatz dynamischer Geometrieprogramme im Mathematikunterricht:<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AZfJDvtPCNc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 </div>
-
-<div class="box26">
-</div>
-
 </div>
 
 
