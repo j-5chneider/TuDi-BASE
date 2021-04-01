@@ -315,7 +315,8 @@ Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&amp;u
 
 \
 \
-__Freizeitspaß im Unterricht?__  
+
+#### __Freizeitspaß im Unterricht?__
 
 Über die Hälfte der Jugendlichen in Deutschland spielt täglich oder mehrmals wöchentlich mit digitalen Spielen (JIM Studie 2018). Diese Vorliebe für das Spielen wird zunehmend auch für den Schulunterricht nutzbar gemacht im Sinne eines spielerischen Zugangs zu Lerninhalten. Dabei bleibt zunächst die Frage offen, ob dieser spielerische Zugang ausschließlich eine Auflockerung des Unterrichts bewirkt, oder ob Gamification auch Auswirkungen auf die Motivation und Lernerfolge der Schülerinnen und Schüler hat. Ja, hat es, sagen Bai, Hew und Huang (2020) in ihrer Metaanalyse ([Quelle](https://doi.org/10.1016/j.edurev.2020.100322)).  
 \
@@ -333,13 +334,13 @@ __Freizeitspaß im Unterricht?__
 
 \
 
-__Was sagt die Praxis?__  
+#### __Was sagt die Praxis?__  
   
 Gamification hat viele Gesichter – das kurze Quiz zwischendurch gehört ebenso dazu wie die mehrwöchige Projektarbeit. Christian Wettke, erfahrener Lehrer und Fortbildner im Bereich Gamification ist überzeugt: „Gamification birgt nach meinen Erlebnissen ein unglaubliches Potential, den eigenen Unterricht zu einem epischen Abenteuer werden zu lassen und mit begeisterten und motivierten Schülerinnen und Schülern auf Augenhöhe zu arbeiten. Natürlich muss man fairerweise sagen, dass das zu Beginn mit einem gewissen Aufwand verbunden ist, der sich aber in der späteren täglichen Arbeit mehr als auszahlt. Man muss dabei auch weder selbst ein Spieler sein noch ein komplettes Spiel entwerfen, sondern bedient sich lediglich an erfolgreichen Spielmechaniken (die übrigens auch von ganz analogen Spielen kommen können) und überträgt sie auf seinen Unterricht.“  
 
 \
 
-__Wozu Gamification?__  
+#### __Wozu Gamification?__  
 
 Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch richtige Antworten) erfreut sich bei Lernenden großer Beliebtheit. Aus Sicht der Lehr-Lernpsychologie ist Gamification in zweierlei Hinsicht interessant. Zum einen kann mit dem Einsatz spielerischer Elemente die Motivation der Schülerinnen und Schüler erhöht werden. Werden bspw. große Aufgaben in kleinere Unteraufgaben unterteilt, nach deren Bearbeitung die Lernenden direkt Feedback und eine Belohnung erhalten, kann das dazu führen, dass sich die Schülerinnen und Schüler in diesem Bereich als kompetent wahrnehmen. Dadurch steigt in der Folge auch die Motivation. Zum anderen wird die Auswirkung von Gamification auf den Lernerfolg der Lernenden diskutiert. Hier ist die Ergebnislage der Studien jedoch weniger eindeutig. Es lohnt sich daher, einen genauen Blick darauf zu werfen, wie die spielerischen Elemente im Einzelnen eingesetzt werden und unter welchen Bedingungen sich dieser Einsatz positiv auf den Lernerfolg auswirkt. 
 
@@ -351,18 +352,73 @@ Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch rich
 
 <div class="container">
 <div class="content-box">
-\
-
-__Das Review: "Erhöht Gamification das Lernen der Schülerinnen und Schüler? Evidenz aus einer Metaanalyse und Synthese von qualitativen Daten im Bildungskontext"__  
+<p class="header-review">Das Review</p>
+_"Erhöht Gamification das Lernen der Schülerinnen und Schüler? Evidenz aus einer Metaanalyse und Synthese von qualitativen Daten im Bildungskontext"_  
 (von [Bai, Hew, und Huang, 2020](https://doi.org/10.1016/j.edurev.2020.100322))
 
-In der Metaanalyse von Shurui Bai, Khe Foon Hew, und Biyun Huang (2020) wurden zunächst 24 Studien mit insgesamt 3202 Lernenden untersucht. In diesen Studien wurden Lernende, die mit spielerischen Elementen i.S.v. Gamification lernten, hinsichtlich ihres Lernerfolgs mit solchen verglichen, die ohne Gamification lernten.  
+\
+\
+
+#### __Was wird verglichen?__
+<div class="container-w">
+<div class="box24">
+_verglichen wurden..._  
+<div class="EG">
+Lernende, die __mit__ spielerischen Elementen i.S.v. Gamification lernten
+</div>
+_mit..._  
+<div class="KG">
+Lernenden, die __ohne__ spielerische Elementen i.S.v. Gamification lernten
+</div>
+</div>
+
+<div class="box74">
+In der Metaanalyse wurden zunächst 24 Studien mit insgesamt 3202 Lernenden untersucht. In diesen Studien wurden Lernende, die mit spielerischen Elementen i.S.v. Gamification lernten, hinsichtlich ihres __Lernerfolgs__ mit solchen verglichen, die ohne Gamification lernten.  
   
-In weiteren 32 Studien wurden Schülerinnen und Schüler sowie Studierende zu ihren Eindrücken zum Lernen mit spielerischen Elementen befragt.   
+In weiteren 32 Studien wurden die Lernenden zu ihren __Eindrücken zum Lernen__ mit spielerischen Elementen befragt.  
   
-Die insgesamt 56 berücksichtigten Studien wurden vornehmlich in den Fachbereichen Informatik und (Fremd-)Sprachenerwerb durchgeführt. Innerhalb der Studien haben die Lernenden 4-12 Wochen mit den spielerischen Elementen gelernt. Die Hälfte der betrachteten Studien wurde im asiatischen Raum durchgeführt, die übrigen Studien in (Nord- und Süd-)Amerika und Europa.  
+Innerhalb der Studien haben die Lernenden __4-12 Wochen__ mit den spielerischen Elementen gelernt.
+</div>
+</div>
 
 \
+\
+\
+
+#### __Kontext der Studien__
+<div class="container-w">
+
+<div class="box24">
+_Geschlechterverteilung_  
+<hr>
+<span class="qm">?</span>  
+<span class="smaller-gray">Keine Angaben im Review.</span>  
+</div>
+
+<div class="box24">
+_Schulstufe_  
+<hr>
+![](www/gam_age.jpg){width=100%}
+</div>
+
+<div class="box24">
+_Region_  
+<hr>
+![](www/gam_loc.jpg){width=100%}
+</div>
+
+
+<div class="box24">
+_Fächer_  
+<hr>
+![](www/gam_sub.jpg){width=100%}
+</div>
+</div>
+
+\
+\
+
+
 
 <details>
   <summary>
@@ -386,12 +442,28 @@ _Was muss bedacht werden?_
 </details>
 
 \
+\
 
-__Forschungsfragen und Ergebnisse__   
+#### __Forschungsfragen und Ergebnisse__  
+\
 
-_„Fördert ein spielerischer Zugang zu Lerninhalten, d.h. Gamification, die fachliche Leistung von Schülerinnen und Schülern?“_
+__„Fördert ein spielerischer Zugang zu Lerninhalten, d.h. Gamification, die fachliche Leistung von Schülerinnen und Schülern?“__
 
-Über alle Studien hinweg zeigte sich, dass Lernende, die während des Lernens spielerische Elemente anwendeten, mehr lernten als Lernende, die ohne spielerische Elemente lernten. Als Voraussetzung zeigten die Studien, dass die Länge der Lerneinheiten mit spielerischen Elementen entscheidend für deren Erfolg war. Die Lerneinheiten mit spielerischen Elementen, die sich über einen bis drei Monate erstreckten, zeigten den größten Unterschied im Lernerfolg zu Lerneinheiten ohne spielerische Elemente in der gleichen Dauer. Zudem zeigten die untersuchten Studien, dass Schülerinnen und Schüler der Sekundarstufe, gegenüber der Primarstufe und Studierenden, am meisten von Gamification profitierten. Allerdings machte weder die Art der spielerischen Elemente (bspw. Münzen sammeln, Fortschrittsbalken) noch die Anzahl dieser Elemente innerhalb einer Lerneinheit einen Unterschied. \
+Über alle Studien hinweg zeigte sich, dass <span class="EG">Lernende, die während des Lernens spielerische Elemente anwendeten</span>, mehr lernten als <span class="KG">Lernende, die ohne spielerische Elemente lernten</span>.  
+
+<div class="container-w">
+<div class="box49">
+![](www/gam_eff.jpg){width=100%}
+</div>
+
+<div class="box49">
+_Hier kommt eine Übersetzung des Effekstärkemaßes._
+</div>
+</div>
+
+\
+
+Als Voraussetzung zeigten die Studien, dass die Länge der Lerneinheiten mit spielerischen Elementen entscheidend für deren Erfolg war. Die Lerneinheiten mit spielerischen Elementen, die sich über einen bis drei Monate erstreckten, zeigten den größten Unterschied im Lernerfolg zu Lerneinheiten ohne spielerische Elemente in der gleichen Dauer. Zudem zeigten die untersuchten Studien, dass Schülerinnen und Schüler der Sekundarstufe, gegenüber der Primarstufe und Studierenden, am meisten von Gamification profitierten. Allerdings machte weder die Art der spielerischen Elemente (bspw. Münzen sammeln, Fortschrittsbalken) noch die Anzahl dieser Elemente innerhalb einer Lerneinheit einen Unterschied. \
 \
 Basierend auf den untersuchten Studien lohnt es sich also, spielerische Elemente in eine längere Unterrichtseinheit einzubauen. Weniger sinnvoll ist dagegen der Einsatz solcher Elemente in vereinzelten Unterrichtsstunden. \
 \
@@ -401,7 +473,7 @@ Generell legen die Befunde nahe, dass es nicht entscheidend ist besonders viele 
 
 \
 
-_„Welche Elemente von Gamification (bspw. Belohnungen bekommen, Ziele setzen) nehmen Lernende als besonders positiv oder negativ wahr?“_ 
+__„Welche Elemente von Gamification (bspw. Belohnungen bekommen, Ziele setzen) nehmen Lernende als besonders positiv oder negativ wahr?“__ 
 
 Die Schülerinnen und Schüler berichteten in den Studien, dass sie mit spielerischen Elementen lieber lernten als ohne. Die Rückmeldung zu ihrem Lernstand nahmen sie dabei besonders positiv wahr, wie auch die daraus entstehende Wertschätzung. Weiterhin gaben die Lernenden an, dass sie durch die spielerischen Elemente dazu angeregt wurden, ambitioniertere Ziele zu setzen und mehr Aufgaben zu erledigen. \
 \
