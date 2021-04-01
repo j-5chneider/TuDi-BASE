@@ -1,3 +1,27 @@
+/* THE COLORS */
+/* green: #237986 */
+/* yellow: #d49c22 */
+
+hr {
+  height:2px;
+  border-width:0;
+  color: #323232;
+  background-color: #323232;
+}
+
+.qm {
+  font-size:8em; 
+  color: #da680f; 
+  font-weight: 900; 
+  line-height: 1em;
+}
+
+.smaller-gray {
+  font-size: .7em;
+  color: #323232;
+}
+
+
 /* third level header */
 .chart-title {
   background-color: #f6f6f6;
@@ -150,7 +174,7 @@ body {
 
 
 
-/* divs for row design */
+/* divs for row design ------------------------------------------------------------------------------- */
 .container {
     justify-content: space-between !important; 
     display: flex;
@@ -158,6 +182,21 @@ body {
     margin-right: 0 !important;
     width: 100%;
     background-color: #f8f8f8;
+}
+
+.container-w {
+    justify-content: space-between !important; 
+    display: flex;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+.box24 {
+    width: 24%;
+    margin-top: 20px;
+    /*border-top: solid black 1px;*/
+    text-align: center;
 }
 
 .box26 {
@@ -169,6 +208,16 @@ body {
     width: 29%;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.box49 {
+    width: 49%;
+    margin-top: 20px;
+}
+
+.box74 {
+  width: 74%;
+  margin-top: 20px;
 }
 
 .content-box {
@@ -241,6 +290,20 @@ body {
     background-image: url('videokonf.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.EG {
+  background-color: #ff857a;
+  padding: 5px;
+  line-height: 1;
+  border-radius: 3px 10px;
+}
+
+.KG {
+  background-color: #d0d4d4;
+  padding: 5px;
+  line-height: 1;
+  border-radius: 3px 10px;
 }
 
 
