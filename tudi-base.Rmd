@@ -492,7 +492,10 @@ _Gamification & Lernverhalten_
 \
 \
 
-#### Tiefergehende Informationen für Fortgeschrittene
+<details>
+<summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` Tiefergehende Informationen für Fortgeschrittene__
+</summary>
 
 <details class="noborder">
   <summary class="dropbtn_y">
@@ -520,6 +523,8 @@ _Was muss bedacht werden?_
   <summary class="dropbtn_y">
   __`r fa("info-circle", height = "15px", fill="#fff")` <a href="www/gam_eval.pdf" style="color:white" target="_blank">Detaillierte Evaluation</a>__
   </summary>
+</details>
+
 </details>
 
 \
