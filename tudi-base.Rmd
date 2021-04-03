@@ -428,7 +428,7 @@ _Fächer_
 
 <details open>
   <summary class="dropbtn_g">
-`r fa("plus-circle", height = "15px", fill="#000")` Forschungsfragen und Ergebnisse__
+`r fa("plus-circle", height = "15px", fill="#000")` Forschungsfragen und Ergebnisse
   </summary>
 
 __„Fördert ein spielerischer Zugang zu Lerninhalten, d.h. Gamification, die fachliche Leistung von Schülerinnen und Schülern?“__
@@ -473,7 +473,7 @@ Um Gamification zu einem sinnvollen Einsatz zu bringen, zeigte die untersuchten 
 
 <details class="noborder">
   <summary class="dropbtn_y">
-  __`r fa("info-circle", height = "15px", fill="#fff")` Ergebnisse kurz & knapp__
+  `r fa("info-circle", height = "15px", fill="#fff")` Ergebnisse kurz & knapp
   </summary>
   <div class="dropdown-content">
 _Gamification & fachliche Leistung_  
@@ -494,12 +494,12 @@ _Gamification & Lernverhalten_
 
 <details>
 <summary class="dropbtn_g">
-`r fa("plus-circle", height = "15px", fill="#000")` Tiefergehende Informationen für Fortgeschrittene__
+`r fa("plus-circle", height = "15px", fill="#000")` Tiefergehende Informationen für Fortgeschrittene
 </summary>
 
 <details class="noborder">
   <summary class="dropbtn_y">
-  __`r fa("info-circle", height = "15px", fill="#fff")` Qualität des Reviews__
+  `r fa("info-circle", height = "15px", fill="#fff")` Qualität des Reviews
   </summary>
   <div class="dropdown-content">
 _Was überzeugt?_  
@@ -521,7 +521,7 @@ _Was muss bedacht werden?_
 
 <details class="noborder">
   <summary class="dropbtn_y">
-  __`r fa("info-circle", height = "15px", fill="#fff")` <a href="www/gam_eval.pdf" style="color:white" target="_blank">Detaillierte Evaluation</a>__
+  `r fa("info-circle", height = "15px", fill="#fff")` <a href="www/gam_eval.pdf" style="color:white" target="_blank">Detaillierte Evaluation</a>
   </summary>
 </details>
 
