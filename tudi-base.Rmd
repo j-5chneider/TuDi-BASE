@@ -322,9 +322,9 @@ Photo by <a href="https://unsplash.com/@robowunderkind?utm_source=unsplash&amp;u
 \
 
 
-<details>
-  <summary>
-  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Was ist Gamification?__</div>
+<details class="noborder">
+  <summary class="dropbtn_y">
+__`r fa("info-circle", height = "15px", fill="#fff")` Was ist Gamification?__
   </summary>
   <div class="dropdown-content">
   Gamification bezeichnet die Anwendung von spielerischen Elementen innerhalb des Lernens. Dies kann beispielsweise ein Belohnungssystem für die erfolgreiche Erledigung einer Aufgabe wie das Erspielen von Belohnungen oder Awards und das Freischalten weiterer Inhalte auf dem Weg zu einem Ziel sein. Zudem sind auch Fortschrittsanzeigen beim Erledigen der Aufgaben oder der Wettbewerb mit anderen Lernenden sein spielerische Elemente, die in den Unterricht eingebaut werden können.
@@ -359,7 +359,12 @@ _"Erhöht Gamification das Lernen der Schülerinnen und Schüler? Evidenz aus ei
 \
 \
 
-#### __Was wird verglichen?__
+<details>
+<summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` __Was wird verglichen?__  
+</summary>
+
+
 <div class="container-w">
 <div class="box24">
 _verglichen wurden..._  
@@ -380,12 +385,15 @@ In weiteren 32 Studien wurden die Lernenden zu ihren __Eindrücken zum Lernen__ 
 Innerhalb der Studien haben die Lernenden __4-12 Wochen__ mit den spielerischen Elementen gelernt.
 </div>
 </div>
+</details>
 
 \
-\
-\
 
-#### __Kontext der Studien__
+<details>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` __Kontext der Studien__ 
+  </summary>
+
 <div class="container-w">
 
 <div class="box24">
@@ -414,42 +422,18 @@ _Fächer_
 ![](www/gam_sub.jpg){width=100%}
 </div>
 </div>
-
-\
-\
-
-
-
-<details>
-  <summary>
-  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Qualität des Reviews__</div>
-  </summary>
-  <div class="dropdown-content">
-_Was überzeugt?_  
-
-* Die Autor*innen haben transparent beschrieben, welche Studien sie aufgenommen haben und wie diese aufgebaut waren. Lesende können also gut nachvollziehen, ob die aufgenommenen Studien tatsächlich zum Thema passen. 
-* Neben quantitativen wurden auch qualitative Studien berücksichtig. Der aktuelle Forschungsstand zu Gamification wurde auf diese Weise umfassend abgebildet. 
-* Die Autor*innen haben sehr strenge Qualitätskriterien für die einzelnen Studien angewendet. Die aufgenommenen Studien haben demnach eine hohe Qualität. 
-* Es wurde sichergestellt, dass keine Verzerrung der Ergebnisse vorliegt wie bspw. durch die Bevorzugung von statistisch signifikanten Studien. 
-
- 
-
-_Was muss bedacht werden?_  
-
-* Die Hälfte der Studien wurde im asiatischen Kontext durchgeführt. Es muss noch überprüft werden, ob sich die Ergebnisse auf das deutsche Bildungssystem übertragen lassen. 
-* Wie spielerische Elemente in spezifischen einzelnen Fächern wirken, konnte nicht differenziert betrachtet werden. 
-   </div>
 </details>
 
 \
-\
 
-#### __Forschungsfragen und Ergebnisse__  
-\
+<details open>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` Forschungsfragen und Ergebnisse__
+  </summary>
 
 __„Fördert ein spielerischer Zugang zu Lerninhalten, d.h. Gamification, die fachliche Leistung von Schülerinnen und Schülern?“__
 
-Über alle Studien hinweg zeigte sich, dass <span class="EG">Lernende, die während des Lernens spielerische Elemente anwendeten</span>, mehr lernten als <span class="KG">Lernende, die ohne spielerische Elemente lernten</span>.  
+Über alle Studien hinweg zeigte sich, dass <span class="EG-txt">Lernende, die während des Lernens spielerische Elemente anwendeten</span>, mehr lernten als <span class="KG-txt">Lernende, die ohne spielerische Elemente lernten</span>.  
 
 <div class="container-w">
 <div class="box49">
@@ -457,7 +441,11 @@ __„Fördert ein spielerischer Zugang zu Lerninhalten, d.h. Gamification, die f
 </div>
 
 <div class="box49">
-_Hier kommt eine Übersetzung des Effekstärkemaßes._
+_Zwei Formulierungen, um die Stärke dieses Unterschieds zu beschreiben:_
+
+* _69% der <span class="EG-txt">Lernenden mit Gamification</span> werden im Lernerfolg über dem Durchschnitt der <span class="KG-txt">Lernenden ohne Gamification</span> sein._ 
+* _Der Durchschnitt des Lernerfolgs der <span class="EG-txt">Lernenden mit Gamification</span> lag höher als 69% der <span class="KG-txt">Lernenden ohne Gamification</span>._
+
 </div>
 </div>
 
@@ -480,13 +468,12 @@ Die Schülerinnen und Schüler berichteten in den Studien, dass sie mit spieleri
 Neben dem erhöhten Lernerfolg kann der Einsatz spielerischer Elemente also zu mehr Motivation, Interesse und Durchhaltevermögen führen. Besonders schwere Lerninhalte könnten den Schülerinnen und Schülern auf diese Weise durch spielerische Elemente  zugänglicher gemacht werden.\
 \
 Um Gamification zu einem sinnvollen Einsatz zu bringen, zeigte die untersuchten Studien, dass es besonders wichtig ist, den Lernenden die Nützlichkeit der spielerischen Elemente zu verdeutlichen. Dazu gehört es auch, eine Belohnung direkt im Anschluss an die erledigte Aufgabe zu geben. Insgesamt sollte außerdem darauf geachtet werden, dass unter den Lernenden kein Neid und keine Ängste entstehen.
+</details>
 \
 
-\
-
-<details>
-  <summary>
-  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Ergebnisse kurz & knapp__</div>
+<details class="noborder">
+  <summary class="dropbtn_y">
+  __`r fa("info-circle", height = "15px", fill="#fff")` Ergebnisse kurz & knapp__
   </summary>
   <div class="dropdown-content">
 _Gamification & fachliche Leistung_  
@@ -503,7 +490,43 @@ _Gamification & Lernverhalten_
 </details>
 
 \
-Quelle:
+\
+
+#### Tiefergehende Informationen für Fortgeschrittene
+
+<details class="noborder">
+  <summary class="dropbtn_y">
+  __`r fa("info-circle", height = "15px", fill="#fff")` Qualität des Reviews__
+  </summary>
+  <div class="dropdown-content">
+_Was überzeugt?_  
+
+* Die Autor*innen haben transparent beschrieben, welche Studien sie aufgenommen haben und wie diese aufgebaut waren. Lesende können also gut nachvollziehen, ob die aufgenommenen Studien tatsächlich zum Thema passen. 
+* Neben quantitativen wurden auch qualitative Studien berücksichtig. Der aktuelle Forschungsstand zu Gamification wurde auf diese Weise umfassend abgebildet. 
+* Die Autor*innen haben sehr strenge Qualitätskriterien für die einzelnen Studien angewendet. Die aufgenommenen Studien haben demnach eine hohe Qualität. 
+* Es wurde sichergestellt, dass keine Verzerrung der Ergebnisse vorliegt wie bspw. durch die Bevorzugung von statistisch signifikanten Studien. 
+
+ 
+
+_Was muss bedacht werden?_  
+
+* Die Hälfte der Studien wurde im asiatischen Kontext durchgeführt. Es muss noch überprüft werden, ob sich die Ergebnisse auf das deutsche Bildungssystem übertragen lassen. 
+* Wie spielerische Elemente in spezifischen einzelnen Fächern wirken, konnte nicht differenziert betrachtet werden. 
+   </div>
+</details>
+<br />
+
+<details class="noborder">
+  <summary class="dropbtn_y">
+  __`r fa("info-circle", height = "15px", fill="#fff")` <a href="www/gam_eval.pdf" style="color:white" target="_blank">Detaillierte Evaluation</a>__
+  </summary>
+</details>
+
+\
+\
+
+#### Quelle
+
 Bai, S., Hew, K. F., & Huang, B. (2020). Does gamification improve student learning outcome? Evidence from a meta-analysis and synthesis of qualitative data in educational contexts. Educational Research Review, 100322.  [https://doi.org/10.1016/j.edurev.2020.100322](https://doi.org/10.1016/j.edurev.2020.100322)
 
 </div>
@@ -516,21 +539,33 @@ Bai, S., Hew, K. F., & Huang, B. (2020). Does gamification improve student learn
 ### Implikationen für die Praxis {data-width=50}
 <div class="container">
 <div class="content-box">
+<p class="header-review">Implikationen für die Praxis</p>
+
 \
 
-__Wie setze ich Gamification sinnvoll im Unterricht ein?__  
+#### __Wie setze ich Gamification sinnvoll im Unterricht ein?__  
 
 Damit der Einsatz von Gamification nicht nur motivierend ist, sondern auch den Lernerfolg der Schülerinnen und Schüler stärkt, ist zweierlei zu beachten. 
 
 1. Die Forschungssynthese zeigt, dass das Lernen mit spielerischen Elementen zu besseren Leistungen führen kann als das Lernen ohne diese Elemente. Der durch Gamification erzielte Vorteil bewegt sich dabei im mittelstarken Bereich. Besonders wirksam ist der Einsatz spielerischer Elemente, wenn er sich über mehrere Wochen erstreckt. 
 2. Es scheint nicht wichtig zu sein, wie viele spielerische Elemente im Einzelnen verwendet werden. Wichtig ist aber, dass die spielerischen Elemente genau zur Lernaufgabe passen. Das kann zum Beispiel bedeuten, dass eine Belohnung oder Rückmeldung zeitlich direkt im Anschluss an eine erledigte Aufgabe erfolgt.\
 \
-Aus genereller lehr- / lernpsychologischer Perspektive ist jedoch zu beachten, dass es sich bei vielen Elementen des Gamification um klassische extrinsische Belohnungssysteme handelt (bspw. für eine   erledigte Aufgabe gibt es Münzen). Dies kann insofern kritisch gesehen werden als dass Studien gezeigt haben, dass die Einführung von Belohnungssystemen dazu führt, dass die intrinsische Motivation der Schülerinnen und Schüler, wie Interesse und Neugier, dadurch zurück gehen kann. Jedoch zeigten sich diese negativen Effekte von Belohnung nur bei Tätigkeiten, die von großer intrinsischer Motivation angetrieben sind. Dies scheint jedoch beim Erlernen von Schulwissen selten der Fall zu sein (zum Weiterlesen: Rheinberg, F. (2010). Korrumpierung intrinsischer Motivation durch externe Belohnung: Mythos oder Realität? In Motivation und Handeln (S. 365-387). Springer, Berlin, Heidelberg. https://link.springer.com/book/10.1007/3-540-29975-0).
 
-\
+<details>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` __Inhaltliche Einordnung__ 
+  </summary>
+
+
+Aus genereller lehr-/lernpsychologischer Perspektive ist jedoch zu beachten, dass es sich bei vielen Elementen des Gamification um klassische extrinsische Belohnungssysteme handelt (bspw. für eine   erledigte Aufgabe gibt es Münzen). Dies kann insofern kritisch gesehen werden als dass Studien gezeigt haben, dass die Einführung von Belohnungssystemen dazu führt, dass die intrinsische Motivation der Schülerinnen und Schüler, wie Interesse und Neugier, dadurch zurück gehen kann. Jedoch zeigten sich diese negativen Effekte von Belohnung nur bei Tätigkeiten, die von großer intrinsischer Motivation angetrieben sind. Dies scheint jedoch beim Erlernen von Schulwissen selten der Fall zu sein (zum Weiterlesen: Rheinberg, F. (2010). Korrumpierung intrinsischer Motivation durch externe Belohnung: Mythos oder Realität? In Motivation und Handeln (S. 365-387). Springer, Berlin, Heidelberg. https://link.springer.com/book/10.1007/3-540-29975-0).
+</details>
 \
 
-__Tools__ 
+<details>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` __Tools__ 
+  </summary>
+
 
 Mehr Informationen und Beispiele von konkreten digitalen Anwendungen. 
 
@@ -544,6 +579,9 @@ Mehr Informationen und Beispiele von konkreten digitalen Anwendungen.
   + Kahoot (für jüngere Schüler*innen)
   + Mentimeter (mit umfangreichen Möglichkeiten verschiedener Frageformate)
 *	In seinem Buch “Gamification im Unterricht - nicht nur Spielerei!” stellt Christian Wettke Gamification und verschiedene Unterrichtsszenarien vor.
+
+</details>
+\
 
 </div>
 </div>
@@ -578,7 +616,7 @@ Mobile Geräte wie Smartphones oder Tablets können dazu eingesetzt werden, den 
 
 <details>
   <summary>
-  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Was ist forschendes Lernen?__</div>
+  <div class="dropbtn_y">__`r fa("info-circle", height = "15px", fill="#fff")` Was ist forschendes Lernen?__</div>
   </summary>
   <div class="dropdown-content">
   Beim forschenden Lernen nehmen die Schülerinnen und Schüler ihren Lernprozess selbst in die Hand. Sie entwickeln Fragen, sammeln Informationen, bereiten diese auf und präsentieren ihr Ergebnis, das anschließend in der Klasse diskutiert und reflektiert werden kann. Die Lehrkraft kann diese forschenden Lernschritte stark vorstrukturieren (z.B. indem sie den Versuchsaufbau und -ablauf im Chemieunterricht vorgibt) oder bewusst offen lassen (z.B. durch eigene Generierung von Fragen und Vorgehensweisen zum Thema Chatsprache im Deutschunterricht).
@@ -620,7 +658,7 @@ In der Metaanalyse von Yang, Sung und Chang (2020) wurden zunächst 41 Studien m
 
 <details>
   <summary>
-  <div class="dropbtn">__`r fa("info-circle", height = "25px", fill="#fff")` Qualität des Reviews__</div>
+  <div class="dropbtn_y">__`r fa("info-circle", height = "15px", fill="#fff")` Qualität des Reviews__</div>
   </summary>
   <div class="dropdown-content">
 _Was überzeugt?_  
@@ -654,6 +692,7 @@ Wird forschendes Lernen durch mobile Geräte unterstützt, kann der Lernerfolg (
 * _Steuerung_: <br />Ähnlich verhält es sich bei der Frage, wer den Forschungsprozess steuert: Lehrende, Lernende oder beide gemeinsam? Steuern die Schülerinnen und Schüler den Forschungsprozess mit den mobilen Geräten selbst, dann lernen sie am meisten.
 * _Umgebung & Fächer_: <br />Mobile Geräte entfalten besonders dann ihren Mehrwert, wenn sie außerhalb des üblichen Rahmens im Klassenzimmer eingesetzt werden. Also bei der Erforschung der Natur im Freien oder bei einer Exkursion im Museum. Entsprechend wurde bisher besonders die Wirksamkeit mobiler Geräte in den MINT-Fächern festgestellt.
 
+\
 \
 
 Quelle: Yang, J.-M., Sung, Y.-T., & Chang, K.-E. (2020). Use of Meta-Analysis to Uncover the Critical Issues of Mobile Inquiry-Based Learning. Journal of Educational Computing Research, 58(4), 715–746. https://doi.org/10.1177/0735633119879366 

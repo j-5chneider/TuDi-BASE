@@ -31,7 +31,7 @@ hr {
 
 
  /* change the color and borders of sidebar on each review page. */
- .section.sidebar {
+.section.sidebar {
   top: 61px;
   border-bottom: 10px solid #ececec;
   border-left: 10px solid #ececec;
@@ -43,6 +43,8 @@ body {
   font-weight: 100 !important;
   height: 99% !important;
 }
+
+
 
 /*header for intro page of each review*/
 .header-review {
@@ -299,6 +301,11 @@ body {
   border-radius: 3px 10px;
 }
 
+.EG-txt {
+  color: #ff857a;
+  font-weight:700;
+}
+
 .KG {
   background-color: #d0d4d4;
   padding: 5px;
@@ -306,9 +313,14 @@ body {
   border-radius: 3px 10px;
 }
 
+.KG-txt {
+  color: #d0d4d4;
+  font-weight:700;
+}
+
 
 /* DROPDOWN INFO BUTTONS  -------------------------------------------------------*/
-.dropbtn {
+.dropbtn_y {
   background-color: #d49c22;
   color: white;
   padding: 16px;
@@ -319,6 +331,9 @@ body {
   cursor: pointer;
 }
 
+.dropbtn_g {
+  background-color: #ececec;
+}
 .dropdownbox {
   position: relative;
   display: inline-block;
@@ -342,6 +357,23 @@ body {
 
 .dropdownbox:hover .dropbtn {background-color: #e5b412;}
 
+summary {
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px;
+  font-weight:700;
+  font-size:19px;
+  line-height: 20.9px;
+}
+
+details {
+  border: 2px solid #cccccc;
+  padding: 2px;
+}
+
+.noborder {
+  border: 0 !important;
+}
 
 /* TABS --------------------------------------------------------------------------*/
 /* inactive tab */
