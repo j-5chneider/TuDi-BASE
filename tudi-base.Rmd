@@ -334,15 +334,24 @@ __`r fa("info-circle", height = "15px", fill="#fff")` Was ist Gamification?__
 
 \
 
-#### __Was sagt die Praxis?__  
+<details>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` Was sagt die Praxis?
+  </summary>
   
 Gamification hat viele Gesichter – das kurze Quiz zwischendurch gehört ebenso dazu wie die mehrwöchige Projektarbeit. Christian Wettke, erfahrener Lehrer und Fortbildner im Bereich Gamification ist überzeugt: „Gamification birgt nach meinen Erlebnissen ein unglaubliches Potential, den eigenen Unterricht zu einem epischen Abenteuer werden zu lassen und mit begeisterten und motivierten Schülerinnen und Schülern auf Augenhöhe zu arbeiten. Natürlich muss man fairerweise sagen, dass das zu Beginn mit einem gewissen Aufwand verbunden ist, der sich aber in der späteren täglichen Arbeit mehr als auszahlt. Man muss dabei auch weder selbst ein Spieler sein noch ein komplettes Spiel entwerfen, sondern bedient sich lediglich an erfolgreichen Spielmechaniken (die übrigens auch von ganz analogen Spielen kommen können) und überträgt sie auf seinen Unterricht.“  
+</details>
 
 \
 
-#### __Wozu Gamification?__  
+<details>
+  <summary class="dropbtn_g">
+`r fa("plus-circle", height = "15px", fill="#000")` Wozu Gamification?
+  </summary>
 
 Die Nutzung spielerischer Elemente beim Lernen (bspw. Münzen sammeln durch richtige Antworten) erfreut sich bei Lernenden großer Beliebtheit. Aus Sicht der Lehr-Lernpsychologie ist Gamification in zweierlei Hinsicht interessant. Zum einen kann mit dem Einsatz spielerischer Elemente die Motivation der Schülerinnen und Schüler erhöht werden. Werden bspw. große Aufgaben in kleinere Unteraufgaben unterteilt, nach deren Bearbeitung die Lernenden direkt Feedback und eine Belohnung erhalten, kann das dazu führen, dass sich die Schülerinnen und Schüler in diesem Bereich als kompetent wahrnehmen. Dadurch steigt in der Folge auch die Motivation. Zum anderen wird die Auswirkung von Gamification auf den Lernerfolg der Lernenden diskutiert. Hier ist die Ergebnislage der Studien jedoch weniger eindeutig. Es lohnt sich daher, einen genauen Blick darauf zu werfen, wie die spielerischen Elemente im Einzelnen eingesetzt werden und unter welchen Bedingungen sich dieser Einsatz positiv auf den Lernerfolg auswirkt. 
+</details>
+\
 
 </div>
 </div>
