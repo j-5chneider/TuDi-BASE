@@ -50,7 +50,7 @@ ggplot(data = data.frame(x = c(-3, 3)), aes(x)) +
                 color = "#cc6a61", 
                 alpha = .5,
                 size = 2) + 
-  # geom_vline(aes(xintercept = .504), color = "white", linetype = "dotted", size = 1.5) +
+  geom_vline(aes(xintercept = .504), color = "white", linetype = "dotted", size = 1.5, alpha = .3) +
   geom_label(x=2.2, y=.3, label="mit \n Gamification", color = 'white', fill = "#ff857a", fontface = "bold") +
   geom_label(x=1, y=.15, label="69%", color = 'white', fill = "#ff857a", fontface = "bold") +
   scale_x_continuous(breaks = c(-2:+2), labels = c("- -", "-", "Lernerfolg", "+", "++")) +

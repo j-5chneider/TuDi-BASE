@@ -42,10 +42,11 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 100 !important;
   height: 99% !important;
+  padding-top: 5px !important;
 }
 
 
-
+/* HEADER --------------------------------------------------------------------*/
 /*header for intro page of each review*/
 .header-review {
   font-size: 3em;
@@ -55,12 +56,25 @@ body {
   margin:35px 0 35px 0;
 }
 
+/*subheader for intro page of each review*/
+.subheader-review {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #237986;
+}
+
+.subheader-rq {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #237986;
+}
+
+
 .flowing-content-container {
     background-color: #f8f8f8;
 }
 
-/*subheader for intro page of each review*/
-.subheader-review {}
+
 
 /* NAVBAR -------------------------------------------------------------------*/
 /* change a height of a standard Bootstrap navbar. */
@@ -314,7 +328,7 @@ body {
 }
 
 .KG-txt {
-  color: #d0d4d4;
+  color: #919494; /*#d0d4d4*/
   font-weight:700;
 }
 
