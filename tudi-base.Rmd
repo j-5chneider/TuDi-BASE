@@ -549,11 +549,11 @@ __„Sind mobile Geräte dazu geeignet forschendes Lernen zu unterstützen?“__
 
 <div class="container-w">
 <div class="box49">
-![](www/gam_eff1.jpg){width=100%}
+![](www/inq_eff1.jpg){width=100%}
 </div>
 
 <div class="box49">
-_Über alle Studien hinweg zeigte sich, dass Lernende, die während des forschenden Lernens mobile Geräte verwendeten, mehr lernten als Lernende, die ohne mobile Geräte lernten: ##% der <span class="EG">Lernenden mit mobilen Geräten</span> werden im Lernerfolg besser als der Durchschnitt der <span class="KG">Lernenden ohne mobile Geräte</span> sein._ 
+_Über alle Studien hinweg zeigte sich, dass Lernende, die während des forschenden Lernens mobile Geräte verwendeten, mehr lernten als Lernende, die ohne mobile Geräte lernten: 68% der <span class="EG">Lernenden mit mobilen Geräten</span> werden im Lernerfolg besser als der Durchschnitt der <span class="KG">Lernenden ohne mobile Geräte</span> sein._ 
 </div>
 </div>
 
