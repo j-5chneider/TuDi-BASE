@@ -11,9 +11,24 @@ hr {
 
 .qm {
   font-size:8em; 
-  color: #da680f; 
   font-weight: 900; 
   line-height: 1em;
+}
+
+.gender {
+  color: #da680f; 
+}
+
+.level {
+  color: #2ba25e; 
+}
+
+.region {
+  color: #07529d; 
+}
+
+.subjects {
+  color: #81107c; 
 }
 
 .smaller-gray {
