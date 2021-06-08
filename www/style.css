@@ -356,7 +356,7 @@ body {
   font-size: 16px;
   border: none;
   display: inline-block;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   cursor: pointer;
 }
 
@@ -387,7 +387,7 @@ body {
 .dropdownbox:hover .dropbtn {background-color: #e5b412;}
 
 summary {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   cursor: pointer;
   padding: 10px;
   font-weight:700;
