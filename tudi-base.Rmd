@@ -267,25 +267,7 @@ Neben dem erhöhten Lernerfolg kann der Einsatz spielerischer Elemente also zu m
 \
 Um Gamification zu einem sinnvollen Einsatz zu bringen, zeigte die untersuchten Studien, dass es besonders wichtig ist, den Lernenden die Nützlichkeit der spielerischen Elemente zu verdeutlichen. Dazu gehört es auch, eine Belohnung direkt im Anschluss an die erledigte Aufgabe zu geben. Insgesamt sollte außerdem darauf geachtet werden, dass unter den Lernenden __kein Neid und keine Ängste__ entstehen.
 \
-\
 
-<details class="noborder">
-  <summary class="dropbtn_y">
-  `r fa("info-circle", height = "15px", fill="#fff")` Ergebnisse kurz & knapp
-  </summary>
-  <div class="dropdown-content">
-_Gamification & fachliche Leistung_  
-
-* Lernerfolg: Lernende, bei denen spielerische Elemente zum Einsatz kamen, lernten mehr als solche, die ohne spielerische Elemente lernten.
-* Dauer des Einsatzes: Wie lange spielerische Elemente eingesetzt wurden, war entscheidend für den Lernerfolg bei Schülerinnen und Schülern. Der wiederholte Einsatz über ein bis drei Monate hinweg hat zu den besten Ergebnissen geführt.. 
-* Art und Anzahl der spielerischen Elemente: Welche Art spielerischer Elemente (z. B. Münzen sammeln, Fortschrittsbalken) und wie viele dieser Elemente verwendet wurden, hatte keinen Einfluss auf den Lernerfolg.
-
-
-_Gamification & Lernverhalten_  
-
-* Motivation: Die Schülerinnen und Schüler lernten lieber mit spielerischen Elementen als ohne. Besonders die Rückmeldungen zu ihren Lernständen und die daraus resultierende Wertschätzung wurde positiv wahrgenommen. 
-* Fleiß: Die Schülerinnen und Schüler gaben an, dass sie durch die spielerischen Elemente dazu angeregt wurden, sich ambitioniertere Ziele zu setzen und mehr Aufgaben zu erledigen.   </div>
-</details>
 </details>
 
 
