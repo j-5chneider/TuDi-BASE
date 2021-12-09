@@ -1,6 +1,8 @@
 library(ggplot2)
-
-##### GAMIFICATION ##########################################################################################
+######################################################################################################### #
+##### GAMIFICATION ########################################################################################
+######################################################################################################### #
+#----- AGE -----------------------------------------------------------------------------------------------#
 # Create test data.
 data <- data.frame(
   category=c("Grundschule",    # 1st category
@@ -41,18 +43,18 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   coord_polar(theta="y") +
   xlim(c(2, 7)) +
   theme_void() +
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        panel.grid = element_blank())
 
-ggsave("www/gam_age_tmp.jpg",
+ggsave("www/gam_age_tmp.png",
        width = 10,
        height = 10,
        units = "mm",
        scale = 22,
        dpi = 250)
 
-################################################### #
 
-
+#----- LOCATION ------------------------------------------------------------------------------------------#
 # Create test data.
 data <- data.frame(
   category=c("Ostasien",       # 1st category
@@ -98,24 +100,25 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   coord_polar(theta="y") +
   xlim(c(2, 7)) +
   theme_void() +
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        panel.grid = element_blank())
 
 
-ggsave("www/gam_loc_tmp.jpg",
+ggsave("www/gam_loc_tmp.png",
        width = 10,
        height = 10,
        units = "mm",
        scale = 22,
        dpi = 250)
-################################################### #
 
 
+#----- SUBJECT -------------------------------------------------------------------------------------------#
 # Create test data.
 data <- data.frame(
   category=c("Informatik",       # 1st category
              "Kunst",      # 2nd category 
              "Sprachen",    # 3rd category
-             "MINT",    # 4th category
+             "Math./Nat.",    # 4th category
              "außerschulisch"    # 5th category
   ),
   count=c(9,       # 1st count
@@ -154,9 +157,10 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   coord_polar(theta="y") +
   xlim(c(2, 7)) +
   theme_void() +
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        panel.grid = element_blank())
 
-ggsave("www/gam_sub_tmp.jpg",
+ggsave("www/gam_sub_tmp.png",
        width = 10,
        height = 10,
        units = "mm",
@@ -164,16 +168,17 @@ ggsave("www/gam_sub_tmp.jpg",
        dpi = 250)
 
 
-
-##### MOBILE INQUIRY-BASED LEARNING ######################################################################################
-
+######################################################################################################### #
+##### MOBILE INQUIRY-BASED LEARNING #######################################################################
+######################################################################################################### #
+#----- SUBJECT -------------------------------------------------------------------------------------------#
 # Create test data.
 data <- data.frame(
   category=c("Sozialwissenschaften",       # 1st category
              "Informatik",      # 2nd category 
              "Sprachen",    # 3rd category
              "außerschulisch",    # 4th category
-             "MINT"    # 5th category
+             "Math./Nat."    # 5th category
   ),
   count=c(6,       # 1st count
           3,        # 2nd count 
@@ -211,9 +216,405 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   coord_polar(theta="y") +
   xlim(c(2, 7)) +
   theme_void() +
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        panel.grid = element_blank())
 
-ggsave("www/inq_sub_tmp.jpg",
+ggsave("www/inq_sub_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+######################################################################################################### #
+##### ITS #################################################################################################
+######################################################################################################### #
+#----- AGE -----------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Grundschule",    # 1st category
+             "Sekundarstufe",    # 2nd category 
+             "Hochschule"     # 3rd category
+  ),
+  count=c(19,        # 1st count
+          24,        # 2nd count 
+          60         # 3rd count
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=2) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+ggsave("www/its_age_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+#----- LOCATION ------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Nordamerika",       # 1st category
+             "Asien",
+             "Europa",      # 2nd category 
+             "Australien"
+             ),
+  count=c(75,       # 1st count
+          6,
+          18,        # 2nd count 
+          8
+          )
+  )
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=1) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+
+ggsave("www/its_loc_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+
+#----- SUBJECT -------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Mathematik",       # 1st category
+             "Chemie",
+             "Physik",      # 2nd category 
+             "Biologie",
+             "Informatik",    # 3rd category
+             "Sprachen",    # 4th category
+             "Gemeinschaftskunde"
+  ),
+  count=c(35,       # 1st count
+          2,
+          24,        # 2nd count 
+          3,
+          19,        # 3rd count
+          14,        # 4rd count
+          8
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=3) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+ggsave("www/its_sub_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+
+
+
+
+######################################################################################################### #
+##### Digital Trace Data  #################################################################################
+######################################################################################################### #
+#----- FOCUS ----------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Big Data",    # 1st category
+             "Educational\ndata mining",
+             "Learning Analytics",
+             "Datafizierung/\nGovernance",
+             "Recht"
+  ),
+  count=c(19,
+          4,
+          37,
+          21,
+          8
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=7) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+ggsave("www/tra_foc_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+
+#----- INSTITUTION -----------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Hochschule",    # 1st category
+             "Schule",    # 2nd category 
+             "Unternehmen",     # 3rd category
+             "keine Angabe"
+  ),
+  count=c(41,        # 1st count
+          17,        # 2nd count 
+          14,         # 3rd count
+          14
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=2) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+ggsave("www/tra_ein_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+
+#----- LOCATION ------------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("Nordamerika",
+             "Naher Osten",
+             "Europa",
+             "Südliche\nHemisphäre" 
+  ),
+  count=c(26,
+          3,
+          41,       # 1st count
+          24
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=1) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+
+ggsave("www/tra_loc_tmp.png",
+       width = 10,
+       height = 10,
+       units = "mm",
+       scale = 22,
+       dpi = 250)
+
+#----- TYPE OF STUDY --------------------------------------------------------------------------------------#
+# Create test data.
+data <- data.frame(
+  category=c("empirisch",
+             "Review",
+             "theoretisch/\nkonzeptuell",
+             "handlungs-\nbezogen"
+
+  ),
+  count=c(14,
+          1,
+          53,
+          11
+  )
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n", data$count, " Studien")
+
+# Make the plot
+ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  geom_label( x=5.2, aes(y=labelPosition, label=label, fontface = "bold"), 
+              size=8, 
+              # fill = NA, 
+              label.size = NA, 
+              alpha = .3,
+              color = "gray15") +
+  scale_fill_brewer(palette=3) +
+  coord_polar(theta="y") +
+  xlim(c(2, 7)) +
+  theme_void() +
+  theme(legend.position = "none",
+        panel.grid = element_blank())
+
+ggsave("www/tra_stu_tmp.png",
        width = 10,
        height = 10,
        units = "mm",
