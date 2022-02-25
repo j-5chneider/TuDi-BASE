@@ -118,6 +118,10 @@ a:active {
 
 
 /* divs for slide design */
+.header-margin {
+  margin-left: 42%;
+}
+
 .container {
     justify-content: center;
     display: flex;
@@ -177,6 +181,22 @@ a:active {
   height: 100%;
   padding-top: 25%;
   background-color: #d49c22;
+  /*opacity: .5;*/
+  z-index: -1;
+  text-align: center;
+  font-size: 3.1em;
+  font-weight: 900;
+  color: white;
+}
+
+.box-bg-l2 {
+  position: absolute;
+  left: 0%;
+  top:0px;
+  width: 40%;
+  height: 100%;
+  padding-top: 22%;
+  background-color: #d89b28;
   /*opacity: .5;*/
   z-index: -1;
   text-align: center;

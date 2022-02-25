@@ -25,76 +25,64 @@ slides > slide:not(.nobackground):after {
 knitr::opts_chunk$set(echo = FALSE,
                       message=FALSE, 
                       warning=FALSE)
-# download.file("https://drive.google.com/uc?export=download&id=1wuMqL_Z8T9rxuGvn0VP6siag90kHDm2O",
+# download.file("https://drive.google.com/uc?export=download&id=1NOgadyAeqmtqJ2mLI0GZHmOkavS5LLeW",
 #               "dissemination/www/references.bib", overwrite = T)
 library(fontawesome)
 # library(rmarkdown)
 ```
 
 
-## Vorab
 
-<br /> 
-`r fa(name = "eye", fill="grey")` Folien anschauen: [**bit.ly/BASE-KA**](http://bit.ly/BASE-KA)<br />
-&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Pfeiltasten zum Blättern
+##  <span class="header-margin">Digitale Medien</span>
 
+<div class="box60r">
+<br />
 
-<br /><br /><br /> 
-`r fa(name = "download", fill="grey")` Folien downloaden: [**bit.ly/BASE-KA-save**](http://bit.ly/BASE-KA-save)<br />
-&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Rechtsklick auf Download > "Ziel/Link speichern unter"
-
-
-
-## Digitale Medien
-
-<div class="box60l">
-<br /><br />
-
-* Rasanter Wandel & wachsendes Forschungsaufkommen
-* (Angehende) Lehrpersonen & Lehrerbildner*innen: didaktisch elaboriert, kritisch reflektiert und forschungsbasierter Einsatz
-* bisher nur wenig systematisch im Lehrpersonenbildungssystem verankert -> informelle Lernsettings als integrale Ressource
+* Rasanter Wandel & wachsendes Forschungsaufkommen <span class="mysource">[@scheiter.2021]</span><br /><br />
+* Anforderung an (angehende) Lehrpersonen & Lehrerbildner*innen <span class="mysource">[@kmk.2016; @bmbf.2018; @bmbf.2019; @kmk.2019]</span><br /><br />
+* bisher nur wenig systematisch im Lehrpersonenbildungssystem verankert  <span class="mysource">[@monitorlehrerbildung.2021]</span><br /><br />`r fa(name = "arrow-right")` informelle Lernsettings als integrale Ressource<br /><br />
 * Bislang: fragmentierte und isolierte deutschsprachige Angebote
 
 </div>
 
-<div class="box-bg-r">`r fa(name = "question", fill="white", height = "500px")`</div>
+<div class="box-bg-l2">`r fa(name = "wifi", fill="white", width = "300px")`</div>
 
 
-## {-}
+## <span class="header-margin">Informationsangebot</span> | <span class="header-margin">TüDi-BASE</span>
 
-<div class="box-bg-l">TüDi-BASE</div>
+<div class="box-bg-l2">![](www/bridge.jpg){width=95%}</div>
 
 <div class="box60r">
+<br /><br />
 
--> forschungsbasiertes und spezifisches Informationsangebot TüDi-BASE
-
-
-__Zielgruppe__: (angehende) Lehrpersonen und Lehrpersonenbildner*innen
+* forschungsbasiert: Aufbereitung von __Forschungs-synthesen__<br /><br /><br />
+* spezifisch: Themenkomplex "__Digitalisierung__ in der Lehrpersonenbildung"<br /><br /><br />
+* Zielgruppen: (angehende) __Lehrpersonen__ und __Lehrpersonenbildner:innen__
 
 </div>
 
 
-## {-}
+## Selektion | Themen
 
-<div class="box-bg-l">Selektion</div>
+<div class="box-bg-r">`r fa(name = "clipboard-check", fill="white", width = "200px")`</div>
 
-<div class="box60r">
+<div class="box60l">
 
-Themencluster „Lernen mit digitalen Medien“ & „Medienbildung“ 
-<br /><br />
+__Themencluster__  
+„Lernen mit digitalen Medien“ & „Medienbildung“ <span class="mysource">[@kmk.2016; @bmbf.2018; @bmbf.2019; @kmk.2019]</span>
+<br /><br /><br />
 __Themenauswahl__
 
-* normativ ("top-down") auf Basis konzeptueller Rahmenmodelle
-   + z. B. am Framework für digitale Kompetenzen von Lehrenden „DigCompEdu“ (Europäische Kommission, 2017; Caena & Redecker, 2019)
-* "bottom-up": breitangelegte, regelmäßige, systematische Analyse der einschlägigen Datenbanken und Zeitschriften (Web of Science, ERIC)
+* normativ ("top-down") auf Basis konzeptueller Rahmenmodelle (z.B. DigCompEdu) <span class="mysource">[@europeancommission.2017a; @caenaetal.2019]</span><br /><br /><br />
+* "bottom-up": systematische Analyse einschlägiger Datenbanken (Web of Science, ERIC)
 
 </div>
 
-## {-}
+## Selektion | Forschungssynthesen
 
-<div class="box-bg-l">Selektion</div>
+<div class="box-bg-r">`r fa(name = "clipboard-check", fill="white", width = "200px")`</div>
 
-<div class="box60r">
+<div class="box60l">
 
 1. Relevanzdimensionen 
     * Aktueller Diskurs in Öffentlichkeit (und Forschung) 
@@ -112,32 +100,28 @@ __Themenauswahl__
 
 
 
-## {-}
+## <span class="header-margin">Gestaltungsprinzipien</span>
 <div class="box-bg-l">Design</div>
 
 <div class="box60r">
-### **Gestaltungsprinzipien**
-<br />
 
-* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021] (McNamara, 2013)</span>
+* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013]</span>
 * Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
 
 </div>
 
 
 
-## {-}
+## <span class="header-margin">Gestaltungsprinzipien</span>
 <div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
 <div class="box60r">
-### **Gestaltungsprinzipien**
-<br />
 
-* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021] (McNamara, 2013)</span>
+* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013]</span>
 * Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
 
-<br /><br /><br /><br /><br />
-<div class="container" style="margin-top:18px">
+<br /><br /><br /><br /><br /><br />
+<div class="container" style="margin-top:26px">
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-comment-dots", height = "70px")`<br />Laut-Denken<br />Studie</div>
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-eye", height = "70px")`<br />Eyetracking<br />Studie</div>
 </div>
@@ -160,14 +144,11 @@ __Themenauswahl__
 </div>
 
 
-## {-}
+## <span class="header-margin">Inhaltliche Komponenten</span>
 
 <div class="box-bg-l">Design</div>
 
 <div class="box60r">
-<br />
-
-### **Inhaltliche Komponenten** 
 
 1. Einführung, Definition, Relevanzinduktion <span class="mysource">[@mccruddenetal.2011]</span>
 2. Erkenntnisse der Forschungsynthese & deren Kontext
@@ -179,22 +160,19 @@ __Themenauswahl__
 
 </div>
 
-## {-}
+## <span class="header-margin">Inhaltliche Komponenten</span>
 
 <div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
 <div class="box60r">
-<br />
-
-### **Inhaltliche Komponenten** 
 
 1. Einführung, Definition, <span style="background-color:#d3e4e6;">Relevanzinduktion</span> <span class="mysource">[@mccruddenetal.2011]</span>
 2. Erkenntnisse der Forschungsynthese & deren <span style="background-color:#d3e4e6;">Kontext</span>
 3. <span style="background-color:#d3e4e6;">Evaluation</span> der Forschungssynthese<span class="mysource">[@hendriksetal.2020]</span>
 4. <span style="background-color:#d3e4e6;">Implikationen für die Praxis & Tools</span>
 
-<br /><br />
-<div style="text-align:center">`r fa(name = "fas fa-cubes", height = "70px")`<br />RCTs:<br />systematische Variation <br />von Komponenten</div>
+<br /><br /><br />
+<div style="text-align:center; margin-top: 7px;">`r fa(name = "fas fa-cubes", height = "70px")`<br />RCTs:<br />systematische Variation <br />von Komponenten</div>
 
 </div>
 
@@ -213,15 +191,16 @@ __Themenauswahl__
 </div>
 
 
-## {-}
+## <span class="header-margin">Effektstärken</span>
 
 <div class="box-bg-l">Design</div>
 
 <div class="box60r">
-### **Effektstärken**
-<br />
 
-* alternative Effektstärkemaße <span class="mysource">[@haneletal.2019; @haneletal.2019a]</span>
+* Interpretation und Verständnis einer Effektgröße als große Herausforderung
+  - alternative Effektstärkemaße <span class="mysource">[@haneletal.2019a;<br /> @lortie-forguesetal.2021]</span><br /><br />
+  - Standardisierte Maße nicht greifbar <span class="mysource">[@lipseyetal.2012]</span><br /><br />
+  - nicht-standardisierte Maße problematisch <span class="mysource">[@kraft.2020]</span><br /><br />
 * grafische Darbietung 
 
 
@@ -229,18 +208,19 @@ __Themenauswahl__
 
 
 
-## {-}
+## <span class="header-margin">Effektstärken</span>
 
 <div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
 <div class="box60r">
-### **Effektstärken**
+
+* Interpretation und Verständnis einer Effektgröße als große Herausforderung
+  - alternative Effektstärkemaße <span class="mysource">[@haneletal.2019a;<br /> @lortie-forguesetal.2021]</span><br /><br />
+  - Standardisierte Maße nicht greifbar <span class="mysource">[@lipseyetal.2012]</span><br /><br />
+  - nicht-standardisierte Maße problematisch <span class="mysource">[@kraft.2020]</span><br /><br />
+* grafische Darbietung 
+
 <br />
-
-* alternative Effektstärkemaße <span class="mysource">[@haneletal.2019; @haneletal.2019a]</span>
-* grafische Darbietung (Correll, Bertini & Franconeri, 2020; Hanel, Maio & Manstead, 2019; Witt, 2019)
-
-<br /><br />
 <div style="text-align:center">`r fa(name = "fas fa-chart-area", height = "70px")`<br />Delphi & RCTs:<br />Effektstärken verständlich<br />visualisieren</div>
 
 </div>
@@ -248,69 +228,137 @@ __Themenauswahl__
 
 
 
-## {-}
+## <span class="header-margin">Effektstärken</span>
 
 <div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
 <div class="box60r">
-
 **Studie 1:** (Delphi-Studie)  
   
-Sammlung und Ranking von Visualisierungstypen  
-\
+* **4 Experten** in Data Visualization
+* Phase 1: Sammlung von **16 Visualisierungstypen** <br />(für Gruppenscores auf metrischer Variable)
+
 \
 
 ![](www/eff1.jpg){width=100%}  
 
 </div>
 
-
-
-
-## {-}
+## <span class="header-margin">Effektstärken</span>
 
 <div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
 <div class="box60r">
-**Studie 1:**  
-<div class="container">
- <div style="width:50%; font-size:0.85em">Sammlung und<br />![](www/eff1.jpg){width=100%}</div>
- <div style="width:50%; font-size:0.8em">Ranking<br />![](www/eff2.jpg){width=100%}</div>
-</div>
-von Visualisierungstypen (Delphi-Studie)  
-
+**Studie 1:** (Delphi-Studie)  
   
-**Studie 2:**  
-Vergleich von Visualisierungstypen (RCT)  
-  
-**Studie 3:**  
-Vergleich von Anreicherungsoptionen (RCT)
+* **4 Experten** in Data Visualization
+* Phase 1: Sammlung von **16 Visualisierungstypen** <br />(für Gruppenscores auf metrischer Variable)
+* Phase 2: Rating und Ranking von **44 Visualisierungen**<br />(meist 3 Arten der Gruppenunterscheidung)
 
-<br />Kooperation mit Kirstin Schmid & Samuel Merk
+\
+\
+
+![](www/groups_as.jpg){width=100%}  
 
 </div>
 
 
+## <span class="header-margin">Effektstärken</span>
+
+<div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
+
+<div class="box60r">
+**Studie 1:** (Delphi-Studie)  
+  
+* **4 Experten** in Data Visualization
+* Phase 1: Sammlung von **16 Visualisierungstypen** <br />(für Gruppenscores auf metrischer Variable)
+* Phase 2: Rating und Ranking von **44 Visualisierungen**<br />(meist 3 Arten der Gruppenunterscheidung)
+
+_"How accurately might teachers assess the effect size depicted in the plot above?"_  
+(7-stufige Likert Skala; totally random - totally accurate)
+
+
+</div>
+
+
+
+## <span class="header-margin">Effektstärken</span>
+
+<div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
+
+<div class="box60r">
+**Studie 1:** (Delphi-Studie)  
+  
+* **4 Experten** in Data Visualization
+* Phase 1: Sammlung von **16 Visualisierungstypen** <br />(für Gruppenscores auf metrischer Variable)
+* Phase 2: Rating und Ranking von **44 Visualisierungen**<br />(meist 3 Arten der Gruppenunterscheidung)
+
+_"How accurately might teachers assess the effect size depicted in the plot above?"_  
+(7-stufige Likert Skala; totally random - totally accurate)
+
+__Ergebnisse: Top 4__
+
+![](www/best_ranked.jpg){width=100%}  
+
+</div>
 
 
 
 
+## <span class="header-margin">Effektstärken</span>
 
-## Generierungprozess | Prototyping
+<div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
 
-**Feedback-Loops**
+<div class="box60r">
+**Studie 2:** (RCT)
 
-1. Prototyp
-    - Feedback durch: Wissenschaftler\*innen
-    - Fokus: wissenschaftliche Qualität <br /><br />
-2. Prototyp:
-    - Feedback durch: Lehrerbildner\*innen
-    - Fokus: Passung zu Bedarf der Nutzergruppe <br /><br />
-3. Prototyp: 
-    - Feedback durch: Lehrpersonen
-    - Fokus: Passung zu Bedarf der Nutzergruppe
+* **UV**: Vergleich der Top 4 **Visualisierungstypen**<br />(Vignettenbasiert, z.B. digitales vs. analoges Lesen)  
+* **AVs**: 
+  - *Sensitivität*
+  - *Akkuratheit*
+  - *Effizienz*
+  - Einschätzung handlungsnaher Konsequenzen
+  - Relevanzeinschätzung
+  - Wahrscheinlichkeit die Intervention in der Praxis umzusetzen
+  - Cognitive Load
+* **KVs**:
+  - Confirmation Bias
+  - Rotation der Größe des Effekts
+  - Rotation der Vignetten
+  
+</div>
 
-<span class="mysource">[@seideletal.2017]</span>
+
+## <span class="header-margin">Effektstärken</span>
+
+<div class="box-bg-l">Design<br /><span style="font-size:0.4em; color:#ececec">Begleitforschung</span></div>
+
+<div class="box60r">
+**Studie 3:** (RCT)
+
+* **UV**: Vergleich von **Anreicherungsoptionen**<br />(z.B. Benchmarks ja/nein; Grafik/Text/Integriert)  
+* **AVs**: 
+  - *Sensitivität*
+  - *Akkuratheit*
+  - *Effizienz*
+  - Einschätzung handlungsnaher Konsequenzen
+  - Relevanzeinschätzung
+  - Wahrscheinlichkeit die Intervention in der Praxis umzusetzen
+  - Cognitive Load
+* **KVs**:
+  - Confirmation Bias
+  - Rotation der Größe des Effekts
+  - Rotation der Vignetten
+
+</div>
+
+
+# Vielen Dank
+
+__Jürgen Schneider__  
+juergen.schneider@uni-tuebingen.de  
+
+Tübingen School of Education
 
 
 
