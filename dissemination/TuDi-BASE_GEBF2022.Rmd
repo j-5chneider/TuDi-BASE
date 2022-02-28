@@ -62,6 +62,9 @@ library(fontawesome)
 </div>
 
 
+# Aufbau & Begleitforschung
+
+
 ## Selektion | Themen
 
 <div class="box-bg-r">`r fa(name = "clipboard-check", fill="white", width = "200px")`</div>
@@ -77,6 +80,28 @@ __Themenauswahl__
 * "bottom-up": systematische Analyse einschlägiger Datenbanken (Web of Science, ERIC)
 
 </div>
+
+## Selektion | Forschungssynthesen
+
+<div class="box-bg-r">`r fa(name = "clipboard-check", fill="white", width = "200px")`</div>
+
+<div class="box60l">
+__Eigene Erstellung__ von Forschungssynthesen, z.B. 
+<br />
+
+* Combining real and virtual experiments in science education <span class="mysource">(Wörner, S., Kuhn, J., & Scheiter, K.; under Review)</span><br /><br />
+* Computer-based feedback on writing <span class="mysource">(Wagner, S., Schneider, J., & Lachner, A.; in prep.)</span>
+
+\
+\
+
+__Standards:__
+
+Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span>
+
+</div>
+
+
 
 ## Selektion | Forschungssynthesen
 
@@ -108,7 +133,15 @@ __Themenauswahl__
 * Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013]</span>
 * Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
 
+\
+
+<img src="www/gam.jpg" style="width:100%; border: 2px solid #ececec;" />
+
+[www.tuedilb-tuebingen.de/gamification.html](https://www.tuedilb-tuebingen.de/gamification.html)
 </div>
+
+
+
 
 
 
@@ -203,6 +236,7 @@ __Themenauswahl__
   - nicht-standardisierte Maße problematisch <span class="mysource">[@kraft.2020]</span><br /><br />
 * grafische Darbietung 
 
+![](www/effsize.jpg){width=100%}
 
 </div>
 
@@ -353,12 +387,29 @@ __Ergebnisse: Top 4__
 </div>
 
 
+# Diskussion
+
+## Diskussion
+
+* TüDi-BASE: spezifisches Angebot zur informellen Fortbildung<br /><br />
+* aktuell 5 Forschungssynthesen aufbereitet, stetiger Ausbau<br /><br />
+* Generierung und Aufbereitung eigener Forschnugssynthesen<br /><br />
+* systematische Begleitforschung
+
+\
+
+<span style="background-color: #ececec; padding: 10px; color: white; vertical-align:middle;">`r fa(name = "globe", height = "20px", fill="#646a6b")` [www.tuedilb-tuebingen.de/tuedi-base.html](https://www.tuedilb-tuebingen.de/tuedi-base.html)
+
+
 # Vielen Dank
+
+![](www/logo_weiss.png){width=20%}  
+\
 
 __Jürgen Schneider__  
 juergen.schneider@uni-tuebingen.de  
 
-Tübingen School of Education
+
 
 
 
@@ -370,9 +421,8 @@ Tübingen School of Education
 
 
 # &nbsp;
-__Images:__  
-(in order of appearance)  
-  
-<span style="font-size:.7em;">
+__Icons:__  
 
+<span style="font-size:.7em;">
+Icons by Font Awesome CC BY 4.0
 </span>
