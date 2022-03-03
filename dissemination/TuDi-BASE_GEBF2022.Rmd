@@ -89,8 +89,9 @@ __Themenauswahl__
 __Eigene Erstellung__ von Forschungssynthesen, z.B. 
 <br />
 
-* Combining real and virtual experiments in science education <span class="mysource">(Wörner, S., Kuhn, J., & Scheiter, K.; under Review)</span><br /><br />
-* Computer-based feedback on writing <span class="mysource">(Wagner, S., Schneider, J., & Lachner, A.; in prep.)</span>
+* Learning by teaching on video<span class="mysource">(Lachner, Hoogerheide, van Gog & Renkl, 2021)</span><br /><br />
+* Combining real and virtual experiments in science education <span class="mysource">(Wörner, Kuhn & Scheiter, accepted)</span><br /><br />
+* Computer-based feedback on writing <span class="mysource">(Wagner, Schneider & Lachner, in prep.)</span>
 
 \
 \
