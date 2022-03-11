@@ -39,8 +39,8 @@ library(fontawesome)
 <br />
 
 * Rasanter Wandel & wachsendes Forschungsaufkommen <span class="mysource">[@scheiter.2021]</span><br /><br />
-* Anforderung an (angehende) Lehrpersonen & Lehrerbildner*innen <span class="mysource">[@kmk.2016; @bmbf.2018; @bmbf.2019; @kmk.2019]</span><br /><br />
-* bisher nur wenig systematisch im Lehrpersonenbildungssystem verankert  <span class="mysource">[@monitorlehrerbildung.2021]</span><br /><br />`r fa(name = "arrow-right")` informelle Lernsettings als integrale Ressource<br /><br />
+* Anforderung an (angehende) Lehrpersonen & Lehrerbildner:innen <span class="mysource">[@kmk.2016; @bmbf.2018; @bmbf.2019; @kmk.2019]</span><br /><br />
+* bisher nur wenig systematisch im Lehrpersonenbildungssystem verankert  <span class="mysource">(Monitor Lehrerbildung, 2021)</span><br /><br /><br />`r fa(name = "arrow-right")` informelle Lernsettings als integrale Ressource<br /><br />
 * Bislang: fragmentierte und isolierte deutschsprachige Angebote
 
 </div>
@@ -55,7 +55,7 @@ library(fontawesome)
 <div class="box60r">
 <br /><br />
 
-* forschungsbasiert: Aufbereitung von __Forschungs-synthesen__<br /><br /><br />
+* forschungsbasiert: Aufbereitung von __Forschungs-synthesen__<span class="mysource">[@apa.2006; @burnsetal.2011]</span><br /><br /><br />
 * spezifisch: Themenkomplex "__Digitalisierung__ in der Lehrpersonenbildung"<br /><br /><br />
 * Zielgruppen: (angehende) __Lehrpersonen__ und __Lehrpersonenbildner:innen__
 
@@ -109,6 +109,8 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 <div class="box-bg-r">`r fa(name = "clipboard-check", fill="white", width = "200px")`</div>
 
 <div class="box60l">
+__Bestehende Forschungssynthesen__
+<br /><br />
 
 1. Relevanzdimensionen 
     * Aktueller Diskurs in Öffentlichkeit (und Forschung) 
@@ -131,10 +133,8 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 
 <div class="box60r">
 
-* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013]</span>
+* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013; @scharreretal.2021]</span><br /><br />
 * Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
-
-\
 
 <img src="www/gam.jpg" style="width:100%; border: 2px solid #ececec;" />
 
@@ -151,11 +151,11 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 
 <div class="box60r">
 
-* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013]</span>
+* Einfachheit und Klarheit in der Sprache <span class="mysource">[@kerweretal.2021; @mcnamara.2013; @scharreretal.2021]</span><br /><br />
 * Verwendung von "Hedges" <span class="mysource">[@braunetal.2014a]</span>
 
 <br /><br /><br /><br /><br /><br />
-<div class="container" style="margin-top:26px">
+<div class="container" style="margin-top:34px">
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-comment-dots", height = "70px")`<br />Laut-Denken<br />Studie</div>
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-eye", height = "70px")`<br />Eyetracking<br />Studie</div>
 </div>
@@ -169,12 +169,13 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 <div class="box60r">
 ![](www/laut-denken.jpg){width=100%}
 
-<br /><br /><br />
+<br /><br /><br /><br />
 <div class="container">
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-comment-dots", height = "70px")`<br />Laut-Denken<br />Studie</div>
  <div style="width:50%; text-align:center">`r fa(name = "fas fa-eye", height = "70px")`<br />Eyetracking<br />Studie</div>
 </div>
-
+<br /><br />
+Präregistrierung: [doi.org/10.17605/OSF.IO/5UCTY](https://doi.org/10.17605/OSF.IO/5UCTY)
 </div>
 
 
@@ -189,7 +190,7 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 3. Evaluation der Forschungssynthese<span class="mysource">[@hendriksetal.2020]</span>
 4. Implikationen für die Praxis & Tools
 
-<br /><br />
+<img src="www/gam.jpg" style="width:95%; border: 2px solid #ececec;" />
 
 
 </div>
@@ -234,7 +235,7 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 * Interpretation und Verständnis einer Effektgröße als große Herausforderung
   - alternative Effektstärkemaße <span class="mysource">[@haneletal.2019a;<br /> @lortie-forguesetal.2021]</span><br /><br />
   - Standardisierte Maße nicht greifbar <span class="mysource">[@lipseyetal.2012]</span><br /><br />
-  - nicht-standardisierte Maße problematisch <span class="mysource">[@kraft.2020]</span><br /><br />
+  - nicht-standardisierte Maße problematisch <span class="mysource">[@bairdetal.2019; @kraft.2020]</span><br /><br />
 * grafische Darbietung 
 
 ![](www/effsize.jpg){width=100%}
@@ -252,7 +253,7 @@ Template zur Präregistrierung<span class="mysource">[@schneideretal.2022]</span
 * Interpretation und Verständnis einer Effektgröße als große Herausforderung
   - alternative Effektstärkemaße <span class="mysource">[@haneletal.2019a;<br /> @lortie-forguesetal.2021]</span><br /><br />
   - Standardisierte Maße nicht greifbar <span class="mysource">[@lipseyetal.2012]</span><br /><br />
-  - nicht-standardisierte Maße problematisch <span class="mysource">[@kraft.2020]</span><br /><br />
+  - nicht-standardisierte Maße problematisch <span class="mysource">[@bairdetal.2019; @kraft.2020]</span><br /><br />
 * grafische Darbietung 
 
 <br />
