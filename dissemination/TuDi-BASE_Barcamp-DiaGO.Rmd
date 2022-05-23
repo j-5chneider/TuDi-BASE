@@ -34,13 +34,14 @@ library(fontawesome)
 ## Vorab
 
 <br /> 
-`r fa(name = "eye", fill="grey")` Folien anschauen: [**bit.ly/BASE-KA**](http://bit.ly/BASE-KA)<br />
-&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Pfeiltasten zum Blättern
+`r fa(name = "download", fill="grey")` Folien downloaden: [**bit.ly/diago-bc1**](https://bit.ly/diago-bc1)<br />
+&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Rechtsklick auf Download > "Ziel/Link speichern unter"
 
 
 <br /><br /><br /> 
-`r fa(name = "download", fill="grey")` Folien downloaden: [**bit.ly/BASE-KA-save**](http://bit.ly/BASE-KA-save)<br />
-&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Rechtsklick auf Download > "Ziel/Link speichern unter"
+`r fa(name = "eye", fill="grey")` Folien anschauen: [**bit.ly/diago-bc2**](https://bit.ly/diago-bc2)<br />
+&nbsp;&nbsp;`r fa(name = "long-arrow-alt-right", fill="grey")` Pfeiltasten zum Blättern
+
 
 
 ## Digitalisierung im Fokus | Öffentlichkeit & Praxis
