@@ -194,6 +194,20 @@ __beantwortet Fragen zu:__
 
 
 
+##  <span class="header-margin">Zukunft</span> | <span class="header-margin">Wie geht es weiter?</span>
+
+<div class="box60r">
+<br />
+
+* laufende Aufbereitung neuer Themen<br /><br /><br />
+* Vernetzung mit anderen Clearing House Vorhaben (z. B. [Clearing House Unterricht](https://www.clearinghouse.edu.tum.de/))<br /><br /><br />
+* evtl. Aufnahme von Themenwünschen, ähnlich ["Wissenskarussell"](https://www.kennisrotonde.nl/) aus den Niederlanden
+</div>
+
+<div class="box-bg-l3">`r fa(name = "forward", fill="white", width = "230px")`</div>
+
+
+
 # Vielen Dank
 
 ![](www/logo_weiss.png){width=20%}  
