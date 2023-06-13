@@ -3,7 +3,7 @@ title: "Codebook Pretest Thinkaloud"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 4
     toc_float: true
     code_folding: 'hide'
     self_contained: true
@@ -27,9 +27,77 @@ ggplot2::theme_set(ggplot2::theme_bw())
 library(codebook)
 library(formr)
 library(tidyverse)
+library(lubridate)
 
 formr_connect(keyring = "juergen")
-codebook_data <- formr_results("base_ld_1b")
+codebook_data <- formr_results("base_ld_1b") |>
+  dplyr::filter(created < ym("2022-12"))         # filter away views after data collection
+
+var_label(codebook_data) <- list(
+    berufstand_1 = "Welche Aussage trifft auf Sie zu?",
+    geschlecht_1 = "Welchem Geschlecht fühlen Sie sich zugeordnet?",
+    berufsjahre = "Wie viele Jahre sind Sie schon innerhalb der Lehrerbildung tätig?",
+    semesteranzahl = "Im wievielten Fachsemester studieren Sie auf Lehramt? (geben Sie bei mehreren Fächern ggf. bitte den Durchschnitt an)",
+    faecher_lehr = "Ich lehre die Fächer aus den folgenden Fächerverbünden: (Mehrfachauswahl möglich)",
+    faecher_studier = "Ich studiere die Fächer (Hauptfach oder Erweiterungsfach) aus den folgenden Fächerverbünden: (Mehrfachauswahl möglich)",
+    schulart_lehr = "Für welche Schulart sind Sie innerhalb der Lehrerbildung tätig?",
+    schulart_studier = "Für welche Schulart studieren Sie auf Lehramt?",
+    schulart_sonstiges1 = "Sonstiges: (Für welche Schulart sind Sie innerhalb der Lehrerbildung tätig?)",
+    schulart_sonstiges2 = "Sonstiges: (Für welche Schulart studieren Sie auf Lehramt?)",
+    tuedi_BASE = "Haben Sie vor dieser Studie bereits von TüDi-BASE gehört?",
+    rahmen = "Wenn ja, in welchem Rahmen? (Seminar, Konferenz ... ?)",
+    prototypen = "Haben Sie bereits Prototypen von TüDi-BASE gesehen?",
+    rahmen2 = "Wenn ja, in welchem Rahmen (Seminar, Konferenz, Researchgate…)?",
+    texture1 = "Wie nehmen Sie bildungswissenschaftliches Wissen wahr? Bildungswissenschaftliches Wissen ist ...",
+    texture2 = "Bildungswissenschaftliches Wissen ist ...",
+    texture3 = "Bildungswissenschaftliches Wissen ist ...",
+    texture4 = "Bildungswissenschaftliches Wissen ist ...",
+    texture5 = "Bildungswissenschaftliches Wissen ist ...",
+    texture6 = "Bildungswissenschaftliches Wissen ist ...",
+    texture7 = "Bildungswissenschaftliches Wissen ist ...",
+    texture8 = "Bildungswissenschaftliches Wissen ist ...",
+    texture9 = "Bildungswissenschaftliches Wissen ist ...",
+    texture11 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity1 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity2 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity3 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity4 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity5 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity6 = "Bildungswissenschaftliches Wissen ist ...",
+    simplicity7 = "Bildungswissenschaftliches Wissen ist ...",
+    neu2 = "Wie schätzen Sie Ihre eigenen Forschungskompetenzen ein? Ich bin in der Lage, Forschungsergebnisse mit Bezug zu den zentralen Theorien des Gegenstandsfelds angemessen zu interpretieren.",
+    neu3 = "Ich bin in der Lage, Forschungsergebnisse hinsichtlich der methodischen Grenzen kritisch zu reflektieren.",
+    neu4 = "Ich bin in der Lage, Forschungsergebnisse hinsichtlich des Ertrags für mein Fachgebiet zu reflektieren",
+    neu5 = "Ich bin in der Lage, Forschungsergebnisse hinsichtlich ihres Anwendungspotentials zu diskutieren.",
+    neu6 = "Ich bin in der Lage, die gesellschaftlichen/ethischen Implikationen von Forschung kritisch zu reflektieren.",
+    neu7 = "Ich bin in der Lage, zu gesellschaftlichen/ethischen Fragen der Forschung eine Position zu entwickeln",
+    neu8 = "Wie schätzen Sie Ihren Umgang mit Technologie ein? Ich kann Technologien auswählen, mit denen die Unterrichtsgestaltung verbessert wird.",
+    neu9 = "Ich kann Technologien auswählen, die das Lernen der Schülerinnen und Schüler verbessert.",
+    neu10 = "Meine Lehramtsausbildung hat mich dazu veranlasst, dass ich tiefer darüber nachdenke, wie Technologien die Unterrichtsgestaltung beeinflussen können.",
+    neu11 = "Ich denke kritisch darüber nach, wie ich Technologien in meinem Klassenzimmer einsetzen kann.",
+    neu12 = "Ich kann den Einsatz der Technologien, die ich kennengelernt habe, an verschiedene Lernaktivitäten anpassen.",
+    neu13 = "Wie schätzen Sie Ihr Vorwissen zum Thema 'Gamification' ein? Ich kann beschreiben was unter Gamification von Lernprozessen verstanden wird.",
+    neu14 = "Ich weiß wie ich Gamification im Unterricht einsetzen kann.",
+    neu15 = "Ich habe Elemente von Gamification in einer Lehrsituation bereits selbst eingesetzt.",
+    neu16 = "Ich weiß ob Gamification einen positiven, negativen oder keinen Effekt auf den Lernerfolg von Schüler*innen hat.",
+    neu17 = "Ich kann aufzählen unter welchen Bedingungen Gamification besonders wirksam für den Lernerfolg ist.",
+    neu18 = "Ich weiß auf welche Aspekte des Lernens sich Gamification neben dem Lernerfolg auch noch auswirkt."
+    )
+
+
+
+
+# val_labels(codebook_data$faecher_lehr) <- c(
+#   "**MINT** (Mathe, Informatik, Biologie, Chemie, Geographie, NwT, Physik, Astronomie)"	= "1",
+#   "**Sprachen** (Deutsch, Chinesisch, Englisch, Französisch, Griechisch, Hebräisch, Italienisch, Latein, Russisch, Spanisch)"	= "2",
+#   "**Geisteswissenschaften** (Geschichte, Philosophie/Ethik, Ev. Theologie, Islamische Religionslehre, Kath. Theologie)" = "3",	
+#   "**Wirtschafts- & Sozialwissenschaft** (Erziehungswissenschaft, Politikwissenschaft, Sportwissenschaft, Wirtschaftswissenschaft)" = "4")
+# 
+# val_labels(codebook_data$faecher_studier) <- c(
+#   "**MINT** (Mathe, Informatik, Biologie, Chemie, Geographie, NwT, Physik, Astronomie)"	= "1",
+#   "**Sprachen** (Deutsch, Chinesisch, Englisch, Französisch, Griechisch, Hebräisch, Italienisch, Latein, Russisch, Spanisch)"	= "2",
+#   "**Geisteswissenschaften** (Geschichte, Philosophie/Ethik, Ev. Theologie, Islamische Religionslehre, Kath. Theologie)" = "3",	
+#   "**Wirtschafts- & Sozialwissenschaft** (Erziehungswissenschaft, Politikwissenschaft, Sportwissenschaft, Wirtschaftswissenschaft)" = "4")
 
 
 # omit the following lines, if your missing values are already properly labelled

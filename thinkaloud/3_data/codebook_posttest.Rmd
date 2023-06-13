@@ -1,0 +1,108 @@
+---
+title: "Codebook Posttest Thinkaloud"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    code_folding: 'hide'
+    self_contained: true
+---
+
+
+```{r setup}
+knitr::opts_chunk$set(
+  warning = FALSE, # show warnings during codebook generation
+  message = FALSE, # show messages during codebook generation
+  error = TRUE, # do not interrupt codebook generation in case of errors,
+                # usually better for debugging
+  echo = TRUE  # show R code
+)
+ggplot2::theme_set(ggplot2::theme_bw())
+
+```
+
+
+```{r prepare_codebook}
+library(codebook)
+library(formr)
+library(tidyverse)
+library(lubridate)
+
+formr_connect(keyring = "juergen")
+codebook_data <- formr_results("base_ld_2b") |>
+  dplyr::filter(created < ym("2022-12"))         # filter away views after data collection
+
+names(codebook_data)[names(codebook_data) == 'texture1'] <- 'texture1_post'
+
+var_label(codebook_data) <- list(
+texture1_post = "Während des Interviews haben Sie einen Teil des Informationsangebots 'TüDi-BASE' gelesen. Wie sehr haben Sie sich gerade beim Lesen des Informationsangebots mental angestrengt?",
+inhalt1 = "Wie schwierig war es für Sie die Inhalte des Informationsangebots zu verstehen?",
+inhalt2 = "Wenn Sie nochmal mit eigenen Worten erklären müssten, was waren die __Inhalte__ des von Ihnen gelesenen Informationsangebots?",
+inhaltlicheFragen2 = "Im Folgenden bitten wir Sie nun einzuschätzen, inwiefern solche Informationsangebote Sie unterstützen können, digitale Medien forschungsbasiert im Unterricht einzusetzen. Ich kann _digitale Medien_ auch ohne solche _Informationsangebote forschungsbasiert_ einsetzen.",
+inhaltlicheFragen3 = "Wenn ich solche _Informationsangebote_ nicht zur Verfügung habe, gelingt mit der Einsatz _digitaler Medien_ nicht _forschungsbasiert_.",
+inhaltlicheFragen4 = "Solche _Informationsangebote_ bringen mir nichts _digitale Medien forschungsbasiert_ einzusetzen.",
+inhaltlicheFragen5 = "Was denken Sie über Informationsangebote wie TüDi-BASE? Solche _Informationsangebote_ helfen mir _digitale Medien forschungsbasiert_ einzusetzen.",
+inhaltlicheFragen7 = "Solche Informationsangebote durchzulesen sind eine echte Last für mich.",
+inhaltlicheFragen8 = "Ich ärgere mich oft über solche Informationsangebote, während ich sie lese.",
+inhaltlicheFragen9 = "Um solche Informationsangebote zu lesen, müsste ich viel Freizeit opfern.",
+inhaltlicheFragen10 = "Solche Informationsangebote zu lesen kostet mich eine Menge Energie.",
+i1 = "Im Folgenden bitten wir Sie einzuschätzen, welche Qualitäten Sie den Autorinnen/Autoren des gerade gelesenen Informationsangebots zuweisen würden. Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... kompetent	inkompetent",
+i2 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse...  intelligent	unintelligent",
+i3 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... gut ausgebildet	schlecht ausgebildet",
+i4 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... fachmännisch	unfachmännisch",
+i5 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... erfahren	unerfahren",
+i6 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... qualifiziert	unqualifiziert",
+i7 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... aufrichtig	unaufrichtig",
+i8 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... ehrlich	unehrlich",
+i9 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... gerecht	ungerecht",
+i10 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... fair	unfair",
+i11 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... moralisch	unmoralisch",
+i12 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... ethisch	unethisch",
+i13 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... verantwortungsbewusst	verantwortungslos",
+i14 = "Die Autorinnen/Autoren des Informationsangebots erscheinen mir in Bezug auf ihre Erkenntnisse... rücksichtsvoll	rücksichtslos",
+t1 = "Bitte lesen Sie sich die nun zum Abschluss die folgenden _drei Unterrichtsszenarien_ durch und bearbeiten Sie jeweils die darunterstehende Aufgabenstellung. Ein Lehrer setzt in einer Schulstunde zum Lernen von Subtraktion und Addition in der Grundschule mehrere Lernapps mit spielerischen Elementen (Gamification) ein. Auf Tablets spielen die Schülerinnen und Schüler die unterschiedlichen Lernapps in 30 Minuten nacheinander durch. In den Lernapps kommen unterschiedliche Arten spielerischer Elemente zum Einsatz (z.B. Punktesysteme oder Wettbewerb in Teams). Nach der Unterrichtsstunde bemerkt der Lehrer allerdings keinen Unterschied im Lernerfolg im Vergleich zu Unterrichtsstunden ohne die Lernapps: Die Schülerinnen und Schüler lösen abschließende Übungsaufgaben genauso gut, wie die Parallelklasse in der keine Lernapps zum Einsatz kamen. Argumentieren Sie auf Basis des gerade gelesenen Informationsangebots, warum der Einsatz spielerischer Elemente in diesem Fall nicht erfolgreich war.
+Begründen Sie bitte Ihre Antwort! ",
+t2 = "Über mehrere Wochen hinweg übt eine Deutschlehrerin mit ihrer 11. Klasse immer wieder das argumentative Schreiben (Erörterung). Dabei dürfen die Schülerinnen und Schüler ihre digital verfassten Erörterungen online gegenseitig kommentieren und Rückmeldungen geben. Für jeden verfassten Kommentar mit konstruktivem Überarbeitungsvorschlag erhalten sie dabei einen Punkt. Die Punktestände der Schülerinnen und Schüler sind für die Klasse einsehbar an einem digitalen ‘Leaderboard’ aufgelistet. Nach einigen Wochen bemerkt die Lehrerin, dass ein Teil der Klasse motiviert an den Erörterungen arbeitet oder zahlreiche Rückmeldungen gibt. Ein anderer Teil der Klasse hingegen scheint weniger motiviert zu sein, an den Erörterungen zu arbeiten oder Rückmeldungen abzugeben. Argumentieren Sie auf Basis des gerade gelesenen Informationsangebots, warum der Einsatz spielerischer Elemente für einen Teil der Klasse motivierend und warum er für einen Teil der Klasse demotivierend wirkte. Begründen Sie bitte Ihre Antwort!",
+t3 = "In einer Projektwoche dürfen die Schülerinnen und Schüler der Kursstufe (12. Klasse) eigene Projektideen zum Thema Klimawandel entwerfen und selbstständig umsetzen. Für jede am Projekt gearbeitete Stunde verdienen die Schülerinnen und Schüler einen Punkt auf einem nur für sie und die Lehrerin einsehbaren Online-Punktekonto. Für besonderes Engagement (z.B. den Müll der Mitschülerinnen und -schüler trennen) können sie auf ihrem Konto außerdem digitale Abzeichen freischalten. Am Ende der Projektwoche bemerkt eine Lehrerin, dass die Motivation der Schülerinnen und Schüler an ihrem Projekt zu arbeiten allerdings deutlich geringer zu sein scheint als zu Beginn der Projektwoche. Argumentieren Sie auf Basis des gerade gelesenen Informationsangebots, warum der Einsatz digitaler Punkte und Abzeichen als spielerisches Element zu einer Abnahme der Motivation geführt haben könnte. Begründen Sie bitte Ihre Antwort!")
+
+
+
+
+# val_labels(codebook_data$faecher_lehr) <- c(
+#   "**MINT** (Mathe, Informatik, Biologie, Chemie, Geographie, NwT, Physik, Astronomie)"	= "1",
+#   "**Sprachen** (Deutsch, Chinesisch, Englisch, Französisch, Griechisch, Hebräisch, Italienisch, Latein, Russisch, Spanisch)"	= "2",
+#   "**Geisteswissenschaften** (Geschichte, Philosophie/Ethik, Ev. Theologie, Islamische Religionslehre, Kath. Theologie)" = "3",	
+#   "**Wirtschafts- & Sozialwissenschaft** (Erziehungswissenschaft, Politikwissenschaft, Sportwissenschaft, Wirtschaftswissenschaft)" = "4")
+# 
+# val_labels(codebook_data$faecher_studier) <- c(
+#   "**MINT** (Mathe, Informatik, Biologie, Chemie, Geographie, NwT, Physik, Astronomie)"	= "1",
+#   "**Sprachen** (Deutsch, Chinesisch, Englisch, Französisch, Griechisch, Hebräisch, Italienisch, Latein, Russisch, Spanisch)"	= "2",
+#   "**Geisteswissenschaften** (Geschichte, Philosophie/Ethik, Ev. Theologie, Islamische Religionslehre, Kath. Theologie)" = "3",	
+#   "**Wirtschafts- & Sozialwissenschaft** (Erziehungswissenschaft, Politikwissenschaft, Sportwissenschaft, Wirtschaftswissenschaft)" = "4")
+
+
+# omit the following lines, if your missing values are already properly labelled
+codebook_data <- detect_missing(codebook_data,
+    only_labelled = TRUE, # only labelled values are autodetected as
+                                   # missing
+    negative_values_are_missing = FALSE, # negative values are missing values
+    ninety_nine_problems = TRUE,   # 99/999 are missing values, if they
+                                   # are more than 5 MAD from the median
+    )
+
+# If you are not using formr, the codebook package needs to guess which items
+# form a scale. The following line finds item aggregates with names like this:
+# scale = scale_1 + scale_2R + scale_3R
+# identifying these aggregates allows the codebook function to
+# automatically compute reliabilities.
+# However, it will not reverse items automatically.
+codebook_data <- detect_scales(codebook_data)
+```
+
+
+Create codebook
+
+```{r codebook}
+codebook(codebook_data)
+```
