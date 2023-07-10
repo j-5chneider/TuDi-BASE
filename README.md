@@ -4,4 +4,4 @@ Dies ist das GitHub Repository der TüDi-BASE (Bibliothek aufbreiteter Forschung
   
 Die Plattform wird stetig erweitert, hier können Sie [die aktuelle Version](https://www.tuedilb-tuebingen.de/tuedi-base.html) einsehen.  
   
-Hier kommen Sie zur  [Webseite von TüDiLB](https://www.tuedilb-tuebingen.de/).
+Hier kommen Sie zur  [Webseite von TüDiLB](https://www.tuedilb-tuebingen.de/). 
